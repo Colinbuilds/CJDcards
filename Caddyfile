@@ -1,0 +1,10 @@
+{
+	admin off
+}
+
+# Railway sets PORT. Without it (e.g. running locally), use 8080.
+:{$PORT:8080} {
+	root * /srv
+	encode gzip
+	file_server
+}

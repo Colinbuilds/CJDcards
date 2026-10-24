@@ -90,6 +90,11 @@ Before deploying, note that **anyone with the URL can open `tracker.html` and `d
 
 **GitHub Pages:** push this folder to a GitHub repo, then go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save. The site appears at `https://<user>.github.io/<repo>/` within a minute or two. A public repo also makes `source/` and `data/inventory.json` public on GitHub itself.
 
+**Railway:** the repo includes a `Dockerfile` and `Caddyfile`, so Railway runs a Caddy web server automatically. It serves only the site files: `source/`, `build/`, `reports/` and `tests/` are not served.
+1. Go to **New Project → Deploy from GitHub repo**, pick this repo, and set **Settings → Source** to the `main` branch.
+2. Leave **Variables** empty. Railway sets `PORT` itself and the server listens on it.
+3. Under **Settings → Networking**, click **Generate Domain**. If Railway asks for a port, leave it on the port it detects. If you get a 502, edit the domain and set the port to the number after `PORT` in the deploy logs, or add a variable `PORT` = `8080` and set the domain port to `8080`.
+
 **Netlify:** drag this folder onto <https://app.netlify.com/drop>. Or connect the repo with an empty build command and publish directory `.`. To re-deploy after a data update, drag the folder again or push to the connected repo.
 
 ## Customize
