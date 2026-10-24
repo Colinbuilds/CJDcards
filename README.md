@@ -1,4 +1,4 @@
-# Your Shop Name: card storefront + tracker
+# CJDcards: card storefront + tracker
 
 A small static site in plain HTML, CSS and JavaScript. There's no build step for the site itself, so it can be hosted anywhere.
 
@@ -62,6 +62,13 @@ The storefront shows only cards with Status **Available** and a list price. It l
 
 `data/storefront.json` contains only those public fields. Market values, costs, PSA values and profit never reach the storefront. `build/check_public.py` checks this after every build. For a check of the page as the browser renders it, install Playwright (`npm i -D playwright && npx playwright install chromium`) and run `node tests/storefront-render-check.mjs`.
 
+### Card photos
+
+The storefront shows a photo for each card, and tapping a card opens a larger view with front and back photos.
+- **CollX export:** the build uses the export's `front_image` and `back_image` links automatically. Re-export from CollX after adding or re-shooting photos, then rebuild.
+- **Workbook:** add a `Photo` column (and optionally `Back photo`) containing web links to the images.
+- The photos load from wherever the links point (CollX's image storage for an export). If a link stops working, that card shows a ✦ placeholder instead.
+
 ## The tracker
 
 - Fees are CollX 8%, Whatnot 10.9% + $0.30 per order, eBay 13.6%, Other 0%. To change them, edit `PLATFORMS` at the top of `assets/tracker.js`.
@@ -90,11 +97,16 @@ Before deploying, note that **anyone with the URL can open `tracker.html` and `d
 
 **GitHub Pages:** push this folder to a GitHub repo, then go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save. The site appears at `https://<user>.github.io/<repo>/` within a minute or two. A public repo also makes `source/` and `data/inventory.json` public on GitHub itself.
 
+**Railway:** the repo includes a `Dockerfile` and `Caddyfile`, so Railway runs a Caddy web server automatically. It serves only the site files: `source/`, `build/`, `reports/` and `tests/` are not served.
+1. Go to **New Project → Deploy from GitHub repo**, pick this repo, and set **Settings → Source** to the `main` branch.
+2. Leave **Variables** empty. Railway sets `PORT` itself and the server listens on it.
+3. Under **Settings → Networking**, click **Generate Domain**. If Railway asks for a port, leave it on the port it detects. If you get a 502, edit the domain and set the port to the number after `PORT` in the deploy logs, or add a variable `PORT` = `8080` and set the domain port to `8080`.
+
 **Netlify:** drag this folder onto <https://app.netlify.com/drop>. Or connect the repo with an empty build command and publish directory `.`. To re-deploy after a data update, drag the folder again or push to the connected repo.
 
 ## Customize
 
-- **Shop name:** replace "Your Shop Name" in `storefront.html` (in `<title>`, the nav and the `<h1>`), `tracker.html` and `labels.html`. Set the name printed on labels in the label studio itself.
+- **Shop name:** "CJDcards" appears in `storefront.html` (in `<title>`, the description, the nav and the `<h1>`), `tracker.html`, `labels.html` and `index.html`. The name printed on labels can also be changed in the label studio itself.
 - **Shop buttons:** replace the two `https://example.com/...` links in `storefront.html` with your CollX and Whatnot shop URLs.
 - **Tagline:** the `<p class="tagline">` in `storefront.html`.
 - **Colors and fonts:** the variables at the top of `assets/styles.css` (ivory, ink and gold, with Cormorant Garamond and Jost from Google Fonts). Light and dark mode follow the system setting.

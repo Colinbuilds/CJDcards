@@ -54,6 +54,9 @@ for (const [width, scheme] of [[375, "light"], [375, "dark"], [1280, "light"]]) 
     money: e.textContent.match(/\$[\d,]+\.\d\d/g) || [],
   })));
 
+  const photos = await page.$$eval("#cards .card-photo", (els) => els.map((e) => !!e.querySelector("img")));
+  const expectPhotos = storefront.filter((c) => c.image).length;
+  if (photos.filter(Boolean).length !== expectPhotos) problems.push(`${photos.filter(Boolean).length} card photos shown, expected ${expectPhotos}`);
   if (cards.length !== storefront.length) problems.push(`${width}px: ${cards.length} cards shown, expected ${storefront.length}`);
   for (const shown of cards) {
     const match = storefront.find((c) => c.player === shown.player && c.setCard === shown.setCard &&

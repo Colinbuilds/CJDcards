@@ -24,7 +24,7 @@
 
   const DEFAULTS = {
     mode: "cards", preset: "avery5160", customW: 2, customH: 1, start: 1, copies: 1,
-    shopName: "Your Shop Name", showShop: true, showSet: true, showCopy: true, showPrice: true, showTop: true,
+    shopName: "CJDcards", showShop: true, showSet: true, showCopy: true, showPrice: true, showTop: true,
     frame: "hairline", ink: "gold", addresses: "", selected: [], status: "Available",
     nudgeX: 0, nudgeY: 0, outlines: false,
   };
@@ -40,6 +40,7 @@
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
       if (saved && typeof saved === "object") state = { ...DEFAULTS, ...saved };
+      if (state.shopName === "Your Shop Name") state.shopName = DEFAULTS.shopName; // old placeholder
     } catch (err) {
       warn("Saved label settings couldn't be read, so defaults are in use.");
     }

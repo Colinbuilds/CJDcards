@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T18:50:02Z",
+ "generated": "2026-10-24T19:40:04Z",
  "cards": [
   {
    "player": "Pikachu",
@@ -7,7 +7,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 10.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185011743462545408-1-CnRZ.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185011743462545408-2-K2hd.jpg"
   },
   {
    "player": "James Cook",
@@ -15,7 +17,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185008209224554496-1-NxiX.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185008209224554496-2-J6fn.jpg"
   },
   {
    "player": "Isaiah Bond",
@@ -23,7 +27,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185008383615326208-1-vHI0.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185008383615326208-2-6OtL.jpg"
   },
   {
    "player": "Arvell Reese",
@@ -31,7 +37,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185008844896491520-1-4Wgw.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185008844896491520-2-ZTb.jpg"
   },
   {
    "player": "Arvell Reese",
@@ -39,7 +47,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185009019580864512-1-7qIG.jpg",
+   "imageBack": ""
   },
   {
    "player": "Malachi Fields",
@@ -47,7 +57,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185009085414660096-1-9gLG.jpg",
+   "imageBack": ""
   },
   {
    "player": "Francis Mauigoa",
@@ -55,7 +67,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185009136501282816-1-KxyD.jpg",
+   "imageBack": ""
   },
   {
    "player": "Colton Hood",
@@ -63,7 +77,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185009186849708032-1-yImy.jpg",
+   "imageBack": ""
   },
   {
    "player": "Malik Nabers",
@@ -71,7 +87,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.25,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185000804877096960-1-58Y.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185000804877096960-2-HEhK.jpg"
   },
   {
    "player": "Chop Robinson",
@@ -79,7 +97,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 3.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185001278766340096-1-FvVf.jpg",
+   "imageBack": ""
   },
   {
    "player": "Troy Franklin",
@@ -87,7 +107,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185001563995789312-1-WgnY.jpg",
+   "imageBack": ""
   },
   {
    "player": "Marist Liufau",
@@ -95,7 +117,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.43,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185001640843827200-1-Cgi5.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jared Verse",
@@ -103,7 +127,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 10.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185001696309303296-1-Hi5n.jpg",
+   "imageBack": ""
   },
   {
    "player": "Kamari Lassiter",
@@ -111,7 +137,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185001812197922816-1-Yd4.jpg",
+   "imageBack": ""
   },
   {
    "player": "Brenden Rice",
@@ -119,7 +147,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.44,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185001966967740416-1-67Wu.jpg",
+   "imageBack": ""
   },
   {
    "player": "Cole Bishop",
@@ -127,7 +157,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002114934396928-1-PM5P.jpg",
+   "imageBack": ""
   },
   {
    "player": "Laiatu Latu",
@@ -135,7 +167,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002186740881408-1-iq8q.jpg",
+   "imageBack": ""
   },
   {
    "player": "Max Melton",
@@ -143,7 +177,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002228339988480-1-N2Yd.jpg",
+   "imageBack": ""
   },
   {
    "player": "Calen Bullock",
@@ -151,7 +187,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002424784410624-1-jT9w.jpg",
+   "imageBack": ""
   },
   {
    "player": "Brian Thomas Jr.",
@@ -159,7 +197,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002488579774464-1-P135.jpg",
+   "imageBack": ""
   },
   {
    "player": "Javon Baker",
@@ -167,7 +207,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.1,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002622722004992-1-MYbc.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ja'Lynn Polk",
@@ -175,7 +217,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.5,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002684680263680-1-Of6h.jpg",
+   "imageBack": ""
   },
   {
    "player": "Spencer Rattler",
@@ -183,7 +227,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002744977577984-1-4ZUz.jpg",
+   "imageBack": ""
   },
   {
    "player": "Terrion Arnold",
@@ -191,7 +237,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 4.79,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002788397012992-1-Fdc.jpg",
+   "imageBack": ""
   },
   {
    "player": "Devontez Walker",
@@ -199,7 +247,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002833569667072-1-cRNy.jpg",
+   "imageBack": ""
   },
   {
    "player": "Michael Hall Jr.",
@@ -207,7 +257,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185002988641474560-1-4KMc.jpg",
+   "imageBack": ""
   },
   {
    "player": "Cade Stover",
@@ -215,7 +267,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.04,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003022606948352-1-vAOc.jpg",
+   "imageBack": ""
   },
   {
    "player": "Olumuyiwa Fashanu",
@@ -223,7 +277,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003059843979264-1-5Uvk.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ladd McConkey",
@@ -231,7 +287,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.5,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003108321744896-1-46FD.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jacob Cowing",
@@ -239,7 +297,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.43,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003247161595904-1-J60O.jpg",
+   "imageBack": ""
   },
   {
    "player": "Kris Jenkins",
@@ -247,7 +307,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.3,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003509171378176-1-fJr.jpg",
+   "imageBack": ""
   },
   {
    "player": "Graham Barton",
@@ -255,7 +317,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.4,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003822376835072-1-iFEW.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jonathon Brooks",
@@ -263,7 +327,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 8.4,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185003870435170304-1-g4u.jpg",
+   "imageBack": ""
   },
   {
    "player": "Troy Fautanu",
@@ -271,7 +337,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184994314074216448-1-3kjV.jpg",
+   "imageBack": ""
   },
   {
    "player": "Cooper DeJean",
@@ -279,7 +347,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 7.8,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184994440314378240-1-rAzX.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jaylen Wright",
@@ -287,7 +357,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.55,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184994834537011200-1-rnvp.jpg",
+   "imageBack": ""
   },
   {
    "player": "Tyler Nubin",
@@ -295,7 +367,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.54,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184995044109604864-1-70wy.jpg",
+   "imageBack": ""
   },
   {
    "player": "Casey Washington",
@@ -303,7 +377,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184995660907173888-1-E7UH.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184995660907173888-2-erat.jpg"
   },
   {
    "player": "Chris Braswell",
@@ -311,7 +387,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.5,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184995890931193856-1-N4kQ.jpg",
+   "imageBack": ""
   },
   {
    "player": "Luke McCaffrey",
@@ -319,7 +397,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.92,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184996388484700160-1-D87C.jpg",
+   "imageBack": ""
   },
   {
    "player": "Keon Coleman",
@@ -327,7 +407,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.36,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184996475264849920-1-7GlW.jpg",
+   "imageBack": ""
   },
   {
    "player": "Braelon Allen",
@@ -335,7 +417,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184996571213748224-1-0RP.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jalen McMillan",
@@ -343,7 +427,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.08,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184996787069409280-1-ikFr.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jonah Elliss",
@@ -351,7 +437,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.44,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184996855260403712-1-eWsk.jpg",
+   "imageBack": ""
   },
   {
    "player": "Byron Murphy II",
@@ -359,7 +447,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184996950269777920-1-sU6N.jpg",
+   "imageBack": ""
   },
   {
    "player": "Theo Johnson",
@@ -367,7 +457,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 4.78,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184997241480304640-1-TGfC.jpg",
+   "imageBack": ""
   },
   {
    "player": "Quinyon Mitchell",
@@ -375,7 +467,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184997388331276288-1-Joie.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jer'Zhan Newton",
@@ -383,7 +477,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.79,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184997474591332352-1-xMNN.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ja'Tavion Sanders",
@@ -391,7 +487,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184997533001209856-1-iJbG.jpg",
+   "imageBack": ""
   },
   {
    "player": "Marvin Harrison Jr.",
@@ -399,7 +497,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184998439784568832-1-hu4.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184998439784568832-2-OGED.jpg"
   },
   {
    "player": "Amarius Mims",
@@ -407,7 +507,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.19,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184998898423322624-1-YSqC.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184998898423322624-2-h2sG.jpg"
   },
   {
    "player": "Kamren Kinchens",
@@ -415,7 +517,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.4,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184998988751853568-1-Q9oE.jpg",
+   "imageBack": ""
   },
   {
    "player": "Xavier Legette",
@@ -423,7 +527,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184999114782300160-1-6shZ.jpg",
+   "imageBack": ""
   },
   {
    "player": "Isaac Guerendo",
@@ -431,7 +537,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.49,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184999225788749824-1-O3pT.jpg",
+   "imageBack": ""
   },
   {
    "player": "Will Shipley",
@@ -439,7 +547,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184999437458495488-1-236S.jpg",
+   "imageBack": ""
   },
   {
    "player": "Edgerrin Cooper",
@@ -447,7 +557,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.4,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184999543624718336-1-U0ae.jpg",
+   "imageBack": ""
   },
   {
    "player": "Brock Bowers",
@@ -455,7 +567,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 1.5,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184999742350841857-1-Lkx.jpg",
+   "imageBack": ""
   },
   {
    "player": "Blake Corum",
@@ -463,7 +577,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 11.99,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184999918645827584-1-uoXW.jpg",
+   "imageBack": ""
   },
   {
    "player": "Eric Dixon",
@@ -471,7 +587,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.5,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184572708021872640-1-P3MX.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184572708021872640-2-LhpN.jpg"
   },
   {
    "player": "LaMarcus Aldridge",
@@ -479,7 +597,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184573295769692160-1-H8TZ.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184573295769692160-2-cqP.jpg"
   },
   {
    "player": "Cade Klubnik",
@@ -487,7 +607,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 35.0,
-   "top": true
+   "top": true,
+   "image": "https://storage.googleapis.com/collx-product-images/1184521234273525760-1-doIg.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184521234273525760-2-OO8.jpg"
   },
   {
    "player": "KJ Hamler",
@@ -495,7 +617,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.27,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184516913939079168-1-oTy1.jpg",
+   "imageBack": ""
   },
   {
    "player": "RJ Harvey",
@@ -503,7 +627,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184517790934491136-1-mcR1.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184517790934491136-2-LC69.jpg"
   },
   {
    "player": "Walter Nolen",
@@ -511,7 +637,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.39,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184517885717372928-1-PcbJ.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184517885717372928-2-aoMt.jpg"
   },
   {
    "player": "Max Klare",
@@ -519,7 +647,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184518098704130048-1-VnFN.jpg",
+   "imageBack": ""
   },
   {
    "player": "Josh Christopher",
@@ -527,7 +657,9 @@
    "copy": 1,
    "copies": 2,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184518677174149120-1-3Xzg.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184518677174149120-2-78r4.jpg"
   },
   {
    "player": "KaVontae Turpin",
@@ -535,7 +667,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 29.4,
-   "top": true
+   "top": true,
+   "image": "https://storage.googleapis.com/collx-product-images/1184518955038400512-1-PXXG.jpg",
+   "imageBack": ""
   },
   {
    "player": "Larry Fitzgerald",
@@ -543,7 +677,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184519426000019456-1-bUPA.jpg",
+   "imageBack": ""
   },
   {
    "player": "Kurt Warner",
@@ -551,7 +687,9 @@
    "copy": 1,
    "copies": 2,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184519510884343808-1-Izz5.jpg",
+   "imageBack": ""
   },
   {
    "player": "Harold Fannin Jr.",
@@ -559,7 +697,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184519579519934464-1-t8Y.jpg",
+   "imageBack": ""
   },
   {
    "player": "Mike Green",
@@ -567,7 +707,9 @@
    "copy": 1,
    "copies": 2,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184519878506700800-1-Gm45.jpg",
+   "imageBack": ""
   },
   {
    "player": "CeeDee Lamb",
@@ -575,7 +717,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512898018828288-1-e4XD.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jonathan Taylor",
@@ -583,7 +727,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184513287116021760-1-CjMw.jpg",
+   "imageBack": ""
   },
   {
    "player": "Rome Odunze",
@@ -591,7 +737,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 171.0,
-   "top": true
+   "top": true,
+   "image": "https://storage.googleapis.com/collx-product-images/1184513610127761408-1-YsxD.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1184513610127761408-2-Z7nj.jpg"
   },
   {
    "player": "Travis Hunter",
@@ -599,7 +747,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184514099359768576-1-36HK.jpg",
+   "imageBack": ""
   },
   {
    "player": "Dyson Daniels",
@@ -607,7 +757,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 18.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184514192464928768-1-6Lq7.jpg",
+   "imageBack": ""
   },
   {
    "player": "Drake Maye",
@@ -615,7 +767,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 15.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184511501944741888-1-vWj.jpg",
+   "imageBack": ""
   },
   {
    "player": "LaDainian Tomlinson",
@@ -623,7 +777,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184511586183143424-1-FBAL.jpg",
+   "imageBack": ""
   },
   {
    "player": "Woody Marks",
@@ -631,7 +787,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184511661009526784-1-Lzj1.jpg",
+   "imageBack": ""
   },
   {
    "player": "Kevin Hervey",
@@ -639,7 +797,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184511819847819264-1-k4PR.jpg",
+   "imageBack": ""
   },
   {
    "player": "Mike Green",
@@ -647,7 +807,9 @@
    "copy": 2,
    "copies": 2,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184511886797299712-1-u4x1.jpg",
+   "imageBack": ""
   },
   {
    "player": "DeVonta Smith",
@@ -655,7 +817,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184511921198981120-1-xmoU.jpg",
+   "imageBack": ""
   },
   {
    "player": "Josh Christopher",
@@ -663,7 +827,9 @@
    "copy": 2,
    "copies": 2,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512029328138240-1-fMpA.jpg",
+   "imageBack": ""
   },
   {
    "player": "A.J. Green",
@@ -671,7 +837,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512295196680192-1-2iBK.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jalen Milroe",
@@ -679,7 +847,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512473236496384-1-DQpQ.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jahmyr Gibbs",
@@ -687,7 +857,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512673078304768-1-FA0D.jpg",
+   "imageBack": ""
   },
   {
    "player": "Patrick Mahomes II",
@@ -695,7 +867,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512706867617792-1-OuzV.jpg",
+   "imageBack": ""
   },
   {
    "player": "Randy Moss",
@@ -703,7 +877,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512765059391488-1-iWNb.jpg",
+   "imageBack": ""
   },
   {
    "player": "Kurt Warner",
@@ -711,7 +887,9 @@
    "copy": 2,
    "copies": 2,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184512812538912768-1-SzO0.jpg",
+   "imageBack": ""
   },
   {
    "player": "DJ Moore",
@@ -719,7 +897,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506846191804416-1-TcT.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jalen McMillan",
@@ -727,7 +907,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 6.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506947526189056-1-eeRA.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ruke Orhorhoro",
@@ -735,7 +917,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507061846138880-1-pxwA.jpg",
+   "imageBack": ""
   },
   {
    "player": "Renardo Green",
@@ -743,7 +927,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.5,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507115919106048-1-OhtN.jpg",
+   "imageBack": ""
   },
   {
    "player": "Dallas Turner",
@@ -751,7 +937,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 11.99,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507180377169920-1-fdpJ.jpg",
+   "imageBack": ""
   },
   {
    "player": "Adisa Isaac",
@@ -759,7 +947,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507218746662912-1-pcRk.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ricky Pearsall",
@@ -767,7 +957,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.15,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507354029744128-1-bcyq.jpg",
+   "imageBack": ""
   },
   {
    "player": "Joe Milton III",
@@ -775,7 +967,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507437253124096-1-Ixol.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ray Davis",
@@ -783,7 +977,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 3.6,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184507561010257920-1-JYRz.jpg",
+   "imageBack": ""
   },
   {
    "player": "Tyreek Hill",
@@ -791,7 +987,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184503441792688128-1-PL90.jpg",
+   "imageBack": ""
   },
   {
    "player": "Trey Benson",
@@ -799,7 +997,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184503529529139200-1-2s1j.jpg",
+   "imageBack": ""
   },
   {
    "player": "Drake London",
@@ -807,7 +1007,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184503604254859264-1-sne.jpg",
+   "imageBack": ""
   },
   {
    "player": "Malik Nabers",
@@ -815,7 +1017,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184503738321592320-1-ca8o.jpg",
+   "imageBack": ""
   },
   {
    "player": "Brian Thomas Jr.",
@@ -823,7 +1027,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504036444332032-1-1u1l.jpg",
+   "imageBack": ""
   },
   {
    "player": "Bo Nix",
@@ -831,7 +1037,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 3.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504125229359104-1-dhm5.jpg",
+   "imageBack": ""
   },
   {
    "player": "Drake Maye",
@@ -839,7 +1047,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504233920552960-1-nzD1.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jayden Daniels",
@@ -847,7 +1057,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.45,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504337922514944-1-8t5c.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jordan Love",
@@ -855,7 +1067,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504376552054784-1-SOL.jpg",
+   "imageBack": ""
   },
   {
    "player": "Ray Davis",
@@ -863,7 +1077,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504433158381568-1-Jb.jpg",
+   "imageBack": ""
   },
   {
    "player": "Keenan Allen",
@@ -871,7 +1087,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 12.59,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184504820686905344-1-6VXi.jpg",
+   "imageBack": ""
   },
   {
    "player": "Xavier Worthy",
@@ -879,7 +1097,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184505022508425216-1-LAnn.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jason Kelce",
@@ -887,7 +1107,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184505137734344704-1-zM1n.jpg",
+   "imageBack": ""
   },
   {
    "player": "Rome Odunze",
@@ -895,7 +1117,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184505375517827072-1-UuvA.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jason Witten",
@@ -903,7 +1127,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.15,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184505564337004544-1-gybs.jpg",
+   "imageBack": ""
   },
   {
    "player": "Brian Thomas Jr.",
@@ -911,7 +1137,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184505795636092928-1-uwtE.jpg",
+   "imageBack": ""
   },
   {
    "player": "C.J. Stroud",
@@ -919,7 +1147,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184505871703990272-1-kGq3.jpg",
+   "imageBack": ""
   },
   {
    "player": "Xavier Legette",
@@ -927,7 +1157,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 7.2,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506007817543680-1-lhND.jpg",
+   "imageBack": ""
   },
   {
    "player": "Drake Maye",
@@ -935,7 +1167,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506069096325120-1-Vpqn.jpg",
+   "imageBack": ""
   },
   {
    "player": "Michael Pratt",
@@ -943,7 +1177,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506145466212352-1-ASHZ.jpg",
+   "imageBack": ""
   },
   {
    "player": "Drake Maye",
@@ -951,7 +1187,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.27,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506205360873472-1-r9ao.jpg",
+   "imageBack": ""
   },
   {
    "player": "Rome Odunze",
@@ -959,7 +1197,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506323027877888-1-vMY1.jpg",
+   "imageBack": ""
   },
   {
    "player": "J.J. McCarthy",
@@ -967,7 +1207,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506542104764416-1-7N9K.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jayden Daniels",
@@ -975,7 +1217,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506625420419072-1-9kTN.jpg",
+   "imageBack": ""
   },
   {
    "player": "Jayden Daniels",
@@ -983,7 +1227,9 @@
    "copy": 1,
    "copies": 1,
    "ask": 2.0,
-   "top": false
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1184506784334209024-1-fyBg.jpg",
+   "imageBack": ""
   }
  ]
 }

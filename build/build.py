@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 STATUSES = ["Available", "Listed", "Sold", "Pulled", "Graded"]
 TOP_CARD_ASK = 20.0
 # The only fields the storefront ever receives.
-PUBLIC_FIELDS = ["player", "setCard", "copy", "copies", "ask", "top"]
+PUBLIC_FIELDS = ["player", "setCard", "copy", "copies", "ask", "top", "image", "imageBack"]
 
 
 # ---------- helpers ----------
@@ -64,6 +64,12 @@ def norm_status(value):
         if text.lower() == s.lower():
             return s
     return text  # unknown text is kept, and treated as "not Available"
+
+
+def photo_url(value):
+    """Keep only web links (http/https) to photos; anything else is dropped."""
+    text = clean(value)
+    return text if re.match(r"https?://", text, re.I) else ""
 
 
 def header_key(text):
@@ -145,6 +151,8 @@ XLSX_COLUMNS = {
     "psa10": ["psa 10"],
     "flags": ["flags"],
     "status": ["status"],
+    "image": ["photo", "image", "front image", "front photo"],
+    "imageBack": ["back image", "back photo"],
 }
 
 
@@ -184,6 +192,8 @@ def load_xlsx(path):
             "psa10": money(get("psa10")),
             "soldFor": None,
             "flags": clean(get("flags")),
+            "image": photo_url(get("image")),
+            "imageBack": photo_url(get("imageBack")),
             "status": norm_status(get("status")),
             "raw": tuple(clean(x) for x in r),
         })
@@ -217,6 +227,8 @@ def load_csv(path):
                 "psa10": None,
                 "soldFor": sold_for,
                 "flags": clean(r.get("flags")),
+                "image": photo_url(r.get("front_image")),
+                "imageBack": photo_url(r.get("back_image")),
                 "status": status,
                 "raw": tuple(clean(v) for v in r.values()),
             })
@@ -346,7 +358,7 @@ def main():
         source_label = src.name
 
     full_fields = ["id", "sourceRow", "number", "copy", "copies", "player", "setCard", "category",
-                   "flags", "status", "ask", "market", "cost", "psa9", "psa10", "soldFor"]
+                   "flags", "status", "ask", "market", "cost", "psa9", "psa10", "soldFor", "image", "imageBack"]
     cards = [{k: rec.get(k, "") for k in full_fields} for rec in records]
 
     public, excluded = [], []
@@ -362,6 +374,8 @@ def main():
             "copies": rec["copies"],
             "ask": rec["ask"],
             "top": rec["ask"] >= TOP_CARD_ASK,
+            "image": rec.get("image", ""),
+            "imageBack": rec.get("imageBack", ""),
         }
         assert list(item) == PUBLIC_FIELDS
         public.append(item)
