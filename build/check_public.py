@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PUBLIC_FIELDS = {"player", "setCard", "copy", "copies", "ask", "top"}
+PUBLIC_FIELDS = {"player", "setCard", "copy", "copies", "ask", "top", "image", "imageBack"}
 PRIVATE_FIELDS = ["market", "cost", "psa9", "psa10", "soldFor"]
 STOREFRONT_FILES = ["storefront.html", "assets/common.js", "assets/storefront.js", "data/storefront.json"]
 BANNED_WORDS = re.compile(r"market|cost|psa|profit|inventory\.json|soldFor", re.I)
@@ -49,6 +49,10 @@ def main():
             problems.append(f"storefront.json card {i} has non-public fields: {sorted(extra)}")
         if asks.get((card.get("player"), card.get("setCard"), card.get("copy"))) != card.get("ask"):
             problems.append(f"storefront.json card {i} price doesn't match its list price")
+        for key in ("image", "imageBack"):
+            url = card.get(key, "")
+            if url and not re.match(r"https?://[^\s\"'<>]+$", url):
+                problems.append(f"storefront.json card {i} {key} is not a plain web link")
 
     # 2. Private values: search the storefront files for each one.
     public_asks = {f"{c['ask']:.2f}" for c in storefront}

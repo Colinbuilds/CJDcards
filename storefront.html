@@ -32,8 +32,8 @@
       <p class="tagline">Rookies, inserts and numbered parallels, chosen with care and priced fairly.</p>
       <div class="actions">
         <!-- Replace these two href values with your real shop URLs. -->
-        <a class="btn btn-primary" href="https://example.com/replace-with-your-collx-shop" target="_blank" rel="noopener">Shop on CollX</a>
-        <a class="btn btn-outline" href="https://example.com/replace-with-your-whatnot-shop" target="_blank" rel="noopener">Shop on Whatnot</a>
+        <a class="btn btn-primary" id="shop-collx" href="https://example.com/replace-with-your-collx-shop" target="_blank" rel="noopener">Shop on CollX</a>
+        <a class="btn btn-outline" id="shop-whatnot" href="https://example.com/replace-with-your-whatnot-shop" target="_blank" rel="noopener">Shop on Whatnot</a>
       </div>
     </div>
   </header>
@@ -60,6 +60,26 @@
     <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
     <ul id="cards" class="card-grid" aria-label="Cards for sale"></ul>
   </main>
+
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="pd-title">
+    <div class="pd-media" id="pd-media"></div>
+    <div class="pd-body">
+      <p class="eyebrow" id="pd-eyebrow"></p>
+      <h2 id="pd-title"></h2>
+      <p class="set" id="pd-set"></p>
+      <p class="copy" id="pd-copy"></p>
+      <p class="price" id="pd-price"></p>
+      <div class="pd-sides" id="pd-sides" role="group" aria-label="Photo side">
+        <button type="button" class="btn btn-ghost btn-small" id="pd-front" aria-pressed="true">Front</button>
+        <button type="button" class="btn btn-ghost btn-small" id="pd-back" aria-pressed="false">Back</button>
+      </div>
+      <div class="pd-actions">
+        <a class="btn btn-primary" id="pd-collx" href="#" target="_blank" rel="noopener">Shop on CollX</a>
+        <a class="btn btn-ghost" id="pd-whatnot" href="#" target="_blank" rel="noopener">Shop on Whatnot</a>
+      </div>
+    </div>
+    <button type="button" class="pd-close" id="pd-close" aria-label="Close photos">×</button>
+  </dialog>
 
   <footer class="site-footer">
     <div class="wrap">

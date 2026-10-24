@@ -1,7 +1,7 @@
 # Rows excluded from the storefront
 
 Source: `source/collx-export.csv`  
-Generated: 2026-10-24 18:50 UTC
+Generated: 2026-10-24 19:40 UTC
 
 These rows are still in `data/inventory.json` and on the tracker page. They are only left off the public storefront.
 

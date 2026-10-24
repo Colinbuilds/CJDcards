@@ -62,6 +62,13 @@ The storefront shows only cards with Status **Available** and a list price. It l
 
 `data/storefront.json` contains only those public fields. Market values, costs, PSA values and profit never reach the storefront. `build/check_public.py` checks this after every build. For a check of the page as the browser renders it, install Playwright (`npm i -D playwright && npx playwright install chromium`) and run `node tests/storefront-render-check.mjs`.
 
+### Card photos
+
+The storefront shows a photo for each card, and tapping a card opens a larger view with front and back photos.
+- **CollX export:** the build uses the export's `front_image` and `back_image` links automatically. Re-export from CollX after adding or re-shooting photos, then rebuild.
+- **Workbook:** add a `Photo` column (and optionally `Back photo`) containing web links to the images.
+- The photos load from wherever the links point (CollX's image storage for an export). If a link stops working, that card shows a ✦ placeholder instead.
+
 ## The tracker
 
 - Fees are CollX 8%, Whatnot 10.9% + $0.30 per order, eBay 13.6%, Other 0%. To change them, edit `PLATFORMS` at the top of `assets/tracker.js`.
