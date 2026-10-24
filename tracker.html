@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Inventory Tracker · Your Shop Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to tracker</a>
+
+  <nav class="site-nav" aria-label="Site">
+    <div class="wrap">
+      <a class="nav-brand" href="storefront.html">Your Shop Name</a>
+      <ul>
+        <li><a href="storefront.html">Shop</a></li>
+        <li><a href="tracker.html" aria-current="page">Tracker</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="wrap">
+    <div class="page-head">
+      <h1>Inventory tracker</h1>
+    </div>
+    <div class="note" role="note">
+      <p><strong>Your data stays in this browser only.</strong> Sales and status changes are saved on this device, in this browser. They are not uploaded anywhere, they don't change the public storefront, and clearing your browser data erases them.</p>
+    </div>
+    <p id="storage-warning" class="note" role="alert" hidden></p>
+
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading" class="visually-hidden">Summary</h2>
+      <ul class="tiles">
+        <li class="tile"><div class="label">Cards in inventory</div><div class="value" id="tile-inventory">–</div><div class="sub">every copy not marked Sold</div></li>
+        <li class="tile"><div class="label">Sold</div><div class="value" id="tile-sold">–</div><div class="sub" id="tile-sold-sub">&nbsp;</div></li>
+        <li class="tile"><div class="label">Net profit from sales</div><div class="value" id="tile-profit">–</div><div class="sub">after fees and costs</div></li>
+        <li class="tile"><div class="label">Inventory at ask</div><div class="value" id="tile-ask">–</div><div class="sub">asking prices of unsold copies</div></li>
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="sale-heading">
+      <h2 id="sale-heading">Record a sale</h2>
+      <p class="panel-intro">Recording a sale marks that copy Sold.</p>
+      <form id="sale-form" novalidate>
+        <div class="form-grid">
+          <div class="field span-all">
+            <label for="sale-card">Card</label>
+            <select id="sale-card" required>
+              <option value="">Choose a card…</option>
+            </select>
+          </div>
+          <div class="field span-2">
+            <label for="sale-platform">Platform</label>
+            <select id="sale-platform"></select>
+          </div>
+          <div class="field">
+            <label for="sale-price">Sale price ($)</label>
+            <input id="sale-price" type="number" inputmode="decimal" min="0" step="0.01" required>
+          </div>
+          <div class="field">
+            <label for="sale-cost">Cost per card ($)</label>
+            <input id="sale-cost" type="number" inputmode="decimal" min="0" step="0.01" value="0.50">
+          </div>
+          <div class="field">
+            <label for="sale-postage">Postage paid ($)</label>
+            <input id="sale-postage" type="number" inputmode="decimal" min="0" step="0.01" value="0.78">
+          </div>
+          <div class="field">
+            <label for="sale-packaging">Packaging ($)</label>
+            <input id="sale-packaging" type="number" inputmode="decimal" min="0" step="0.01" value="0.16">
+          </div>
+          <div class="field span-2">
+            <label for="sale-fixed">Fixed fee per order ($) <span class="hint">$0.30 for Whatnot</span></label>
+            <input id="sale-fixed" type="number" inputmode="decimal" min="0" step="0.01" value="0.00">
+          </div>
+          <dl class="preview span-all" aria-live="polite" aria-label="Net profit preview">
+            <div><dt>Sale</dt><dd id="pv-sale">$0.00</dd></div>
+            <div><dt>Fees</dt><dd id="pv-fees">$0.00</dd></div>
+            <div><dt>Costs</dt><dd id="pv-costs">$0.00</dd></div>
+            <div class="net"><dt>Net profit</dt><dd id="pv-net">$0.00</dd></div>
+          </dl>
+          <div class="form-actions span-all">
+            <button class="btn btn-primary" type="submit">Record sale</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel" aria-labelledby="sales-heading">
+      <h2 id="sales-heading">Sales</h2>
+      <p class="panel-intro">Deleting a sale puts that copy back to the status it had before.</p>
+      <div class="table-wrap" tabindex="0" role="region" aria-labelledby="sales-heading">
+        <table class="sales-table">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Card</th>
+              <th scope="col">Platform</th>
+              <th scope="col" class="num">Sale</th>
+              <th scope="col" class="num">Fees</th>
+              <th scope="col" class="num">Costs</th>
+              <th scope="col" class="num">Net profit</th>
+              <th scope="col"><span class="visually-hidden">Actions</span></th>
+            </tr>
+          </thead>
+          <tbody id="sales-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="inventory-heading">
+      <h2 id="inventory-heading">Inventory</h2>
+      <p class="panel-intro">Changing a status here doesn't record a sale.</p>
+      <div class="table-tools">
+        <div class="field">
+          <label for="inv-search">Filter inventory</label>
+          <input id="inv-search" type="search" placeholder="Player, set or card number" autocomplete="off" aria-controls="inventory-body">
+        </div>
+        <div class="field">
+          <label for="inv-status">Show status</label>
+          <select id="inv-status" aria-controls="inventory-body">
+            <option value="">All statuses</option>
+          </select>
+        </div>
+      </div>
+      <p id="inv-count" class="result-count" role="status" aria-live="polite"></p>
+      <div class="table-wrap" tabindex="0" role="region" aria-labelledby="inventory-heading">
+        <table class="inventory-table">
+          <thead>
+            <tr>
+              <th scope="col">Card</th>
+              <th scope="col">Copy</th>
+              <th scope="col" class="num">Ask</th>
+              <th scope="col" class="num">Market</th>
+              <th scope="col" class="num">Cost</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody id="inventory-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Private page. It isn't linked from search engines, but anyone with the URL can open it. See the README.</p>
+    </div>
+  </footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/tracker.js"></script>
+</body>
+</html>

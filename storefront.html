@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Shop Name · Sports Cards</title>
+  <meta name="description" content="Sports cards for sale from Your Shop Name. Free US shipping.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to cards</a>
+
+  <nav class="site-nav" aria-label="Site">
+    <div class="wrap">
+      <a class="nav-brand" href="storefront.html">Your Shop Name</a>
+      <ul>
+        <li><a href="storefront.html" aria-current="page">Shop</a></li>
+        <li><a href="tracker.html">Tracker</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="shop-header">
+    <div class="wrap">
+      <!-- Replace "Your Shop Name" here, in <title>, and in the nav above. -->
+      <h1>Your Shop Name</h1>
+      <p class="tagline">Football, basketball and more. Rookies, inserts and numbered cards at fair asking prices.</p>
+      <div class="actions">
+        <!-- Replace these two href values with your real shop URLs. -->
+        <a class="btn btn-primary" href="https://example.com/replace-with-your-collx-shop" target="_blank" rel="noopener">Shop on CollX</a>
+        <a class="btn btn-outline" href="https://example.com/replace-with-your-whatnot-shop" target="_blank" rel="noopener">Shop on Whatnot</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <h2 class="visually-hidden">Cards for sale</h2>
+    <div class="toolbar">
+      <div class="field">
+        <label for="search">Search cards</label>
+        <input id="search" type="search" placeholder="Player, set or card number" autocomplete="off" aria-controls="cards">
+      </div>
+      <div class="field">
+        <label for="sort">Sort by</label>
+        <select id="sort" aria-controls="cards">
+          <option value="price-desc">Price: high to low</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="player">Player A–Z</option>
+        </select>
+      </div>
+    </div>
+    <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+    <ul id="cards" class="card-grid" aria-label="Cards for sale"></ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Prices are asking prices and can change. Shipping is free in the US. Check the shop listing before you buy.</p>
+    </div>
+  </footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/storefront.js"></script>
+</body>
+</html>
