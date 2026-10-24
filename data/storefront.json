@@ -1,0 +1,989 @@
+{
+ "generated": "2026-10-24T18:50:02Z",
+ "cards": [
+  {
+   "player": "Pikachu",
+   "setCard": "McDonald's Promos 2023 #006/015",
+   "copy": 1,
+   "copies": 1,
+   "ask": 10.0,
+   "top": false
+  },
+  {
+   "player": "James Cook",
+   "setCard": "2026 Bowman #12",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Isaiah Bond",
+   "setCard": "2026 Bowman #23",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Arvell Reese",
+   "setCard": "2026 Bowman - Greatness Loading #GL-17",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Arvell Reese",
+   "setCard": "2026 Bowman #182",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Malachi Fields",
+   "setCard": "2026 Bowman #129",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Francis Mauigoa",
+   "setCard": "2026 Bowman #168",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Colton Hood",
+   "setCard": "2026 Bowman #194",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Malik Nabers",
+   "setCard": "2024 Panini Absolute #106",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.25,
+   "top": false
+  },
+  {
+   "player": "Chop Robinson",
+   "setCard": "2024 Panini Absolute #121",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.0,
+   "top": false
+  },
+  {
+   "player": "Troy Franklin",
+   "setCard": "2024 Panini Absolute #178",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Marist Liufau",
+   "setCard": "2024 Panini Absolute #170",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.43,
+   "top": false
+  },
+  {
+   "player": "Jared Verse",
+   "setCard": "2024 Panini Absolute #119",
+   "copy": 1,
+   "copies": 1,
+   "ask": 10.2,
+   "top": false
+  },
+  {
+   "player": "Kamari Lassiter",
+   "setCard": "2024 Panini Absolute #142",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Brenden Rice",
+   "setCard": "2024 Panini Absolute #199",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.44,
+   "top": false
+  },
+  {
+   "player": "Cole Bishop",
+   "setCard": "2024 Panini Absolute #157",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Laiatu Latu",
+   "setCard": "2024 Panini Absolute #115",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Max Melton",
+   "setCard": "2024 Panini Absolute #143",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Calen Bullock",
+   "setCard": "2024 Panini Absolute #165",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Brian Thomas Jr.",
+   "setCard": "2024 Panini Absolute #123",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Javon Baker",
+   "setCard": "2024 Panini Absolute #180",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.1,
+   "top": false
+  },
+  {
+   "player": "Ja'Lynn Polk",
+   "setCard": "2024 Panini Absolute #137",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.5,
+   "top": false
+  },
+  {
+   "player": "Spencer Rattler",
+   "setCard": "2024 Panini Absolute #194",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Terrion Arnold",
+   "setCard": "2024 Panini Absolute #124",
+   "copy": 1,
+   "copies": 1,
+   "ask": 4.79,
+   "top": false
+  },
+  {
+   "player": "Devontez Walker",
+   "setCard": "2024 Panini Absolute #181",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Michael Hall Jr.",
+   "setCard": "2024 Panini Absolute #153",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Cade Stover",
+   "setCard": "2024 Panini Absolute #185",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.04,
+   "top": false
+  },
+  {
+   "player": "Olumuyiwa Fashanu",
+   "setCard": "2024 Panini Absolute #111",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Ladd McConkey",
+   "setCard": "2024 Panini Absolute #134",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.5,
+   "top": false
+  },
+  {
+   "player": "Jacob Cowing",
+   "setCard": "2024 Panini Absolute #191",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.43,
+   "top": false
+  },
+  {
+   "player": "Kris Jenkins",
+   "setCard": "2024 Panini Absolute #149",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.3,
+   "top": false
+  },
+  {
+   "player": "Graham Barton",
+   "setCard": "2024 Panini Absolute #126",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false
+  },
+  {
+   "player": "Jonathon Brooks",
+   "setCard": "2024 Panini Absolute #146",
+   "copy": 1,
+   "copies": 1,
+   "ask": 8.4,
+   "top": false
+  },
+  {
+   "player": "Troy Fautanu",
+   "setCard": "2024 Panini Absolute #120",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Cooper DeJean",
+   "setCard": "2024 Panini Absolute #140",
+   "copy": 1,
+   "copies": 1,
+   "ask": 7.8,
+   "top": false
+  },
+  {
+   "player": "Jaylen Wright",
+   "setCard": "2024 Panini Absolute #183",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.55,
+   "top": false
+  },
+  {
+   "player": "Tyler Nubin",
+   "setCard": "2024 Panini Certified #137",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.54,
+   "top": false
+  },
+  {
+   "player": "Casey Washington",
+   "setCard": "2024 Panini Absolute #101",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Chris Braswell",
+   "setCard": "2024 Panini Absolute #155",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.5,
+   "top": false
+  },
+  {
+   "player": "Luke McCaffrey",
+   "setCard": "2024 Panini Absolute #176",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.92,
+   "top": false
+  },
+  {
+   "player": "Keon Coleman",
+   "setCard": "2024 Panini Absolute #133",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.36,
+   "top": false
+  },
+  {
+   "player": "Braelon Allen",
+   "setCard": "2024 Panini Absolute #190",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Jalen McMillan",
+   "setCard": "2024 Panini Absolute #173",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.08,
+   "top": false
+  },
+  {
+   "player": "Jonah Elliss",
+   "setCard": "2024 Panini Absolute #164",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.44,
+   "top": false
+  },
+  {
+   "player": "Byron Murphy II",
+   "setCard": "2024 Panini Absolute #116",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Theo Johnson",
+   "setCard": "2024 Panini Absolute #179",
+   "copy": 1,
+   "copies": 1,
+   "ask": 4.78,
+   "top": false
+  },
+  {
+   "player": "Quinyon Mitchell",
+   "setCard": "2024 Panini Absolute #122",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Jer'Zhan Newton",
+   "setCard": "2024 Panini Absolute #136",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.79,
+   "top": false
+  },
+  {
+   "player": "Ja'Tavion Sanders",
+   "setCard": "2024 Panini Absolute #177",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Marvin Harrison Jr.",
+   "setCard": "2024 Panini Absolute #104",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Amarius Mims",
+   "setCard": "2024 Panini Absolute #118",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.19,
+   "top": false
+  },
+  {
+   "player": "Kamren Kinchens",
+   "setCard": "2024 Panini Absolute #175",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false
+  },
+  {
+   "player": "Xavier Legette",
+   "setCard": "2024 Panini Absolute #132",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Isaac Guerendo",
+   "setCard": "2024 Panini Absolute #189",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.49,
+   "top": false
+  },
+  {
+   "player": "Will Shipley",
+   "setCard": "2024 Panini Absolute #187",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.2,
+   "top": false
+  },
+  {
+   "player": "Edgerrin Cooper",
+   "setCard": "2024 Panini Absolute #145",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false
+  },
+  {
+   "player": "Brock Bowers",
+   "setCard": "2024 Panini Absolute #113",
+   "copy": 1,
+   "copies": 1,
+   "ask": 1.5,
+   "top": false
+  },
+  {
+   "player": "Blake Corum",
+   "setCard": "2024 Panini Absolute #168",
+   "copy": 1,
+   "copies": 1,
+   "ask": 11.99,
+   "top": false
+  },
+  {
+   "player": "Eric Dixon",
+   "setCard": "2025-26 Panini Prizm #51",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.5,
+   "top": false
+  },
+  {
+   "player": "LaMarcus Aldridge",
+   "setCard": "2025-26 Panini Prizm - Green Prizm #190",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Cade Klubnik",
+   "setCard": "2026 Wild Card 5 Card Draw Stacked Deck Jumbo - Cross Hatch Joker Black Suits #SDJJ-CKN",
+   "copy": 1,
+   "copies": 1,
+   "ask": 35.0,
+   "top": true
+  },
+  {
+   "player": "KJ Hamler",
+   "setCard": "2020 Panini Select #167",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.27,
+   "top": false
+  },
+  {
+   "player": "RJ Harvey",
+   "setCard": "2025 Panini Mosaic #375",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Walter Nolen",
+   "setCard": "2025 Panini Prizm Draft Picks #93",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.39,
+   "top": false
+  },
+  {
+   "player": "Max Klare",
+   "setCard": "2026 Topps Flagship #340",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Josh Christopher",
+   "setCard": "2021-22 Panini Prizm #324",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "KaVontae Turpin",
+   "setCard": "2025 Panini Prizm - Snakeskin #137",
+   "copy": 1,
+   "copies": 1,
+   "ask": 29.4,
+   "top": true
+  },
+  {
+   "player": "Larry Fitzgerald",
+   "setCard": "2007 Topps #114",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Kurt Warner",
+   "setCard": "2008 Upper Deck #38",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Harold Fannin Jr.",
+   "setCard": "2025 Panini Phoenix #217",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Mike Green",
+   "setCard": "2025 Topps Chrome Cosmic #108",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "CeeDee Lamb",
+   "setCard": "2025 Topps Chrome - Fortune 15 Refractor #F15-9",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jonathan Taylor",
+   "setCard": "2020 Panini Chronicles #42",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Rome Odunze",
+   "setCard": "2024 Panini Obsidian - Black Stained Glass #14",
+   "copy": 1,
+   "copies": 1,
+   "ask": 171.0,
+   "top": true
+  },
+  {
+   "player": "Travis Hunter",
+   "setCard": "2025 Panini Mosaic #301",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Dyson Daniels",
+   "setCard": "2023-24 Panini Select - Autographed Memorabilia #AM-DYS",
+   "copy": 1,
+   "copies": 1,
+   "ask": 18.0,
+   "top": false
+  },
+  {
+   "player": "Drake Maye",
+   "setCard": "2024 Panini Prizm - Rookie Gear #RG-DME",
+   "copy": 1,
+   "copies": 1,
+   "ask": 15.0,
+   "top": false
+  },
+  {
+   "player": "LaDainian Tomlinson",
+   "setCard": "2007 Topps #398",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Woody Marks",
+   "setCard": "2025 Panini Mosaic #395",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Kevin Hervey",
+   "setCard": "2018 Panini Contenders Draft Picks #106",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Mike Green",
+   "setCard": "2025 Topps Chrome Cosmic #108",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "DeVonta Smith",
+   "setCard": "2025 Panini Absolute Countdown Calendar #58",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Josh Christopher",
+   "setCard": "2021-22 Panini Prizm #324",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "A.J. Green",
+   "setCard": "2025 Panini Phoenix #100",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jalen Milroe",
+   "setCard": "2025 Panini Mosaic #283",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "setCard": "2025 Topps Resurgence #33",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Patrick Mahomes II",
+   "setCard": "2025 Panini Authentically Mahomes Icon Collection #24",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Randy Moss",
+   "setCard": "2025 Donruss Elite #12",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Kurt Warner",
+   "setCard": "2008 Upper Deck #38",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "DJ Moore",
+   "setCard": "2024 Panini Absolute - Rock Out #RO-DME",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jalen McMillan",
+   "setCard": "2024 Panini Absolute - Introductions Red Spectrum #I-JMN",
+   "copy": 1,
+   "copies": 1,
+   "ask": 6.0,
+   "top": false
+  },
+  {
+   "player": "Ruke Orhorhoro",
+   "setCard": "2024 Panini Absolute #135",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Renardo Green",
+   "setCard": "2024 Panini Absolute #159",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.5,
+   "top": false
+  },
+  {
+   "player": "Dallas Turner",
+   "setCard": "2024 Panini Absolute #117",
+   "copy": 1,
+   "copies": 1,
+   "ask": 11.99,
+   "top": false
+  },
+  {
+   "player": "Adisa Isaac",
+   "setCard": "2024 Panini Absolute #174",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Ricky Pearsall",
+   "setCard": "2024 Panini Absolute #131",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.15,
+   "top": false
+  },
+  {
+   "player": "Joe Milton III",
+   "setCard": "2024 Panini Absolute #197",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Ray Davis",
+   "setCard": "2024 Panini Absolute #188",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.6,
+   "top": false
+  },
+  {
+   "player": "Tyreek Hill",
+   "setCard": "2024 Panini Absolute - Rock Out #RO-THL",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Trey Benson",
+   "setCard": "2024 Panini Absolute - By Storm #BS-TBN",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Drake London",
+   "setCard": "2024 Panini Absolute - Draft Diamonds #DD-DLN",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Malik Nabers",
+   "setCard": "2024 Panini Absolute - Star Gazing #SG-MNS",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Brian Thomas Jr.",
+   "setCard": "2024 Panini Absolute - Rock Out #RO-BTJ",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Bo Nix",
+   "setCard": "2024 Panini Absolute - Introductions #I-BNX",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.0,
+   "top": false
+  },
+  {
+   "player": "Drake Maye",
+   "setCard": "2024 Panini Absolute - Star Gazing #SG-DME",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jayden Daniels",
+   "setCard": "2024 Panini Absolute - Introductions #I-JDS",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.45,
+   "top": false
+  },
+  {
+   "player": "Jordan Love",
+   "setCard": "2024 Panini Absolute - Draft Diamonds #DD-JLE",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Ray Davis",
+   "setCard": "2024 Panini Absolute - Star Gazing #SG-RDS",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Keenan Allen",
+   "setCard": "2024 Panini Absolute - Gold Stars #18",
+   "copy": 1,
+   "copies": 1,
+   "ask": 12.59,
+   "top": false
+  },
+  {
+   "player": "Xavier Worthy",
+   "setCard": "2024 Panini Absolute - Black #128",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jason Kelce",
+   "setCard": "2024 Panini Absolute - Draft Diamonds #DD-JKE",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Rome Odunze",
+   "setCard": "2024 Panini Absolute - By Storm #BS-ROE",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jason Witten",
+   "setCard": "2024 Panini Absolute - Draft Diamonds #DD-JWN",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.15,
+   "top": false
+  },
+  {
+   "player": "Brian Thomas Jr.",
+   "setCard": "2024 Panini Absolute - By Storm #BS-BTJ",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "C.J. Stroud",
+   "setCard": "2024 Panini Absolute - Draft Diamonds #DD-CSD",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Xavier Legette",
+   "setCard": "2024 Panini Absolute - By Storm Blue Spectrum #BS-XLE",
+   "copy": 1,
+   "copies": 1,
+   "ask": 7.2,
+   "top": false
+  },
+  {
+   "player": "Drake Maye",
+   "setCard": "2024 Panini Absolute #103",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Michael Pratt",
+   "setCard": "2024 Panini Absolute - Star Gazing #SG-MPT",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Drake Maye",
+   "setCard": "2024 Panini Absolute - Introductions #I-DME",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.27,
+   "top": false
+  },
+  {
+   "player": "Rome Odunze",
+   "setCard": "2024 Panini Absolute - Star Gazing #SG-ROE",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "J.J. McCarthy",
+   "setCard": "2024 Panini Absolute - Introductions #I-JMY",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jayden Daniels",
+   "setCard": "2024 Panini Absolute - Rock Out #RO-JDS",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  },
+  {
+   "player": "Jayden Daniels",
+   "setCard": "2024 Panini Absolute - By Storm #BS-JDS",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false
+  }
+ ]
+}

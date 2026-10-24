@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Label Studio · Your Shop Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/labels.css">
+  <style id="page-size"></style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to label studio</a>
+
+  <nav class="site-nav" aria-label="Site">
+    <div class="wrap">
+      <a class="nav-brand" href="storefront.html">Your Shop Name</a>
+      <ul>
+        <li><a href="storefront.html">Shop</a></li>
+        <li><a href="tracker.html">Tracker</a></li>
+        <li><a href="labels.html" aria-current="page">Labels</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="wrap">
+    <div class="page-head">
+      <p class="eyebrow">Private</p>
+      <h1>Label studio</h1>
+    </div>
+    <div class="note" role="note">
+      <p><strong>Printing tips:</strong> in the print dialog, set Scale to <em>100%</em> (or "Actual size"), Margins to <em>None</em>, and turn off headers and footers. For a thermal printer, pick the matching label size as the paper size. Print one sheet on plain paper with "Print outlines" on to check alignment, then use "Fine-tune alignment" if it's off.</p>
+    </div>
+    <p id="storage-warning" class="note" role="alert" hidden></p>
+
+    <div class="labels-layout">
+      <form id="label-form" class="labels-controls" novalidate>
+        <fieldset class="panel">
+          <legend>What to print</legend>
+          <div class="choice-row">
+            <label class="choice"><input type="radio" name="mode" value="cards" checked> <span>Card labels</span></label>
+            <label class="choice"><input type="radio" name="mode" value="address"> <span>Address labels</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="panel">
+          <legend>Paper</legend>
+          <div class="stack">
+            <div class="field">
+              <label for="preset">Label stock</label>
+              <select id="preset"></select>
+            </div>
+            <div class="two-col" id="custom-size" hidden>
+              <div class="field">
+                <label for="custom-w">Width (in)</label>
+                <input id="custom-w" type="number" inputmode="decimal" min="0.5" max="8.5" step="0.01">
+              </div>
+              <div class="field">
+                <label for="custom-h">Height (in)</label>
+                <input id="custom-h" type="number" inputmode="decimal" min="0.3" max="11" step="0.01">
+              </div>
+            </div>
+            <div class="two-col">
+              <div class="field" id="start-field">
+                <label for="start">Start at label</label>
+                <input id="start" type="number" inputmode="numeric" min="1" step="1" value="1">
+                <span class="hint">Skip labels already used on a sheet</span>
+              </div>
+              <div class="field">
+                <label for="copies">Copies of each</label>
+                <input id="copies" type="number" inputmode="numeric" min="1" max="50" step="1" value="1">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="panel" data-mode="cards">
+          <legend>Card label design</legend>
+          <div class="stack">
+            <div class="field">
+              <label for="shop-name">Shop name on label</label>
+              <input id="shop-name" type="text" autocomplete="off" value="Your Shop Name">
+            </div>
+            <div class="checks">
+              <label class="choice"><input type="checkbox" id="show-shop" checked> <span>Shop name</span></label>
+              <label class="choice"><input type="checkbox" id="show-set" checked> <span>Set and card number</span></label>
+              <label class="choice"><input type="checkbox" id="show-copy" checked> <span>Copy number (when more than one)</span></label>
+              <label class="choice"><input type="checkbox" id="show-price" checked> <span>Asking price</span></label>
+              <label class="choice"><input type="checkbox" id="show-top" checked> <span>✦ mark on Top cards ($20+)</span></label>
+            </div>
+            <div class="two-col">
+              <div class="field">
+                <label for="frame">Frame</label>
+                <select id="frame">
+                  <option value="hairline">Hairline</option>
+                  <option value="double">Double rule</option>
+                  <option value="none">None</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="ink">Ink</label>
+                <select id="ink">
+                  <option value="gold">Gold accents</option>
+                  <option value="black">Black only</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="panel" data-mode="cards">
+          <legend>Choose cards</legend>
+          <div class="stack">
+            <div class="two-col">
+              <div class="field">
+                <label for="card-search">Search</label>
+                <input id="card-search" type="search" placeholder="Player, set or number" autocomplete="off" aria-controls="card-list">
+              </div>
+              <div class="field">
+                <label for="card-status">Status</label>
+                <select id="card-status" aria-controls="card-list">
+                  <option value="">All statuses</option>
+                </select>
+              </div>
+            </div>
+            <div class="btn-row">
+              <button type="button" class="btn btn-ghost btn-small" id="select-shown">Select shown</button>
+              <button type="button" class="btn btn-ghost btn-small" id="clear-selection">Clear</button>
+            </div>
+            <p id="pick-count" class="hint" role="status" aria-live="polite"></p>
+            <ul id="card-list" class="card-picker" aria-label="Cards"></ul>
+          </div>
+        </fieldset>
+
+        <fieldset class="panel" data-mode="address" hidden>
+          <legend>Addresses</legend>
+          <div class="field">
+            <label for="addresses">One address per block</label>
+            <textarea id="addresses" rows="8" spellcheck="false" placeholder="Jane Collector&#10;123 Main St Apt 4&#10;Springfield, IL 62701&#10;&#10;Sam Buyer&#10;45 Oak Ave&#10;Austin, TX 78701"></textarea>
+            <span class="hint">Leave a blank line between addresses.</span>
+          </div>
+        </fieldset>
+
+        <fieldset class="panel">
+          <legend>Fine-tune alignment</legend>
+          <div class="stack">
+            <div class="two-col">
+              <div class="field">
+                <label for="nudge-x">Move right (in)</label>
+                <input id="nudge-x" type="number" inputmode="decimal" min="-0.5" max="0.5" step="0.01" value="0">
+              </div>
+              <div class="field">
+                <label for="nudge-y">Move down (in)</label>
+                <input id="nudge-y" type="number" inputmode="decimal" min="-0.5" max="0.5" step="0.01" value="0">
+              </div>
+            </div>
+            <span class="hint">Negative numbers move left or up.</span>
+            <label class="choice"><input type="checkbox" id="outlines"> <span>Print outlines (for a test print on plain paper)</span></label>
+          </div>
+        </fieldset>
+      </form>
+
+      <section class="labels-preview" aria-labelledby="preview-heading">
+        <div class="preview-bar">
+          <div>
+            <h2 id="preview-heading">Preview</h2>
+            <p id="summary" class="hint" role="status" aria-live="polite"></p>
+          </div>
+          <button type="button" class="btn btn-primary" id="print-btn">Print labels</button>
+        </div>
+        <p id="fit-warning" class="note" hidden></p>
+        <div id="sheets" class="sheets"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Private page. Settings are saved in this browser only.</p>
+    </div>
+  </footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/labels.js"></script>
+</body>
+</html>
