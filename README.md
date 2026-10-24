@@ -1,4 +1,4 @@
-# Your Shop Name: card storefront + tracker
+# CJDcards: card storefront + tracker
 
 A small static site in plain HTML, CSS and JavaScript. There's no build step for the site itself, so it can be hosted anywhere.
 
@@ -106,7 +106,7 @@ Before deploying, note that **anyone with the URL can open `tracker.html` and `d
 
 ## Customize
 
-- **Shop name:** replace "Your Shop Name" in `storefront.html` (in `<title>`, the nav and the `<h1>`), `tracker.html` and `labels.html`. Set the name printed on labels in the label studio itself.
+- **Shop name:** "CJDcards" appears in `storefront.html` (in `<title>`, the description, the nav and the `<h1>`), `tracker.html`, `labels.html` and `index.html`. The name printed on labels can also be changed in the label studio itself.
 - **Shop buttons:** replace the two `https://example.com/...` links in `storefront.html` with your CollX and Whatnot shop URLs.
 - **Tagline:** the `<p class="tagline">` in `storefront.html`.
 - **Colors and fonts:** the variables at the top of `assets/styles.css` (ivory, ink and gold, with Cormorant Garamond and Jost from Google Fonts). Light and dark mode follow the system setting.
