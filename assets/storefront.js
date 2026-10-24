@@ -27,7 +27,7 @@
       el("h3", { text: card.player }),
       el("p", { class: "set", text: card.setCard }),
       copyLabel(card) ? el("p", { class: "copy", text: copyLabel(card) }) : null,
-      el("p", { class: "price" }, money(card.ask), " ", el("small", { text: "ask" })));
+      el("p", { class: "price" }, money(card.ask), " ", el("small", { text: "Asking" })));
   }
 
   function render() {

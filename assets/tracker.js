@@ -111,7 +111,7 @@
     const keep = form.card.value;
     const unsold = cards
       .filter((c) => statusOf(c) !== "Sold")
-      .sort((a, b) => (a.player || "~").localeCompare(b.player || "~") || a.setCard.localeCompare(b.setCard) || a.copy - b.copy);
+      .sort((a, b) => (!a.player - !b.player) || (a.player || "").localeCompare(b.player || "") || a.setCard.localeCompare(b.setCard) || a.copy - b.copy);
     const options = unsold.map((c) =>
       el("option", { value: c.id, text: `${cardName(c)}${c.ask != null ? ` · ask ${money(c.ask)}` : ""}` }));
     form.card.replaceChildren(el("option", { value: "", text: unsold.length ? "Choose a card…" : "No unsold cards" }), ...options);
