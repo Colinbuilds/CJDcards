@@ -73,6 +73,7 @@ The storefront shows a photo for each card, and tapping a card opens a larger vi
 
 - Fees are CollX 8%, Whatnot 10.9% + $0.30 per order, eBay 13.6%, Other 0%. To change them, edit `PLATFORMS` at the top of `assets/tracker.js`.
 - Cost per card defaults to the row's cost from the workbook, or $0.50 if it has none.
+- Postage paid defaults to $0, because buyers pay shipping (and tracking, at cost). Enter postage only when you paid it yourself.
 - Recording a sale marks that copy Sold. Deleting a sale puts it back to its previous status. Changing a status in the inventory table never records a sale.
 - Sales and statuses are saved in `localStorage`, so they stay **in this browser on this device only**. They don't change the public storefront. To take a card off the storefront, change its Status in the workbook and rebuild.
 
