@@ -200,6 +200,17 @@ def load_xlsx(path):
     return records
 
 
+def collx_sold_price(value):
+    """CollX exports sold prices in cents with no decimal point ("208" = $2.08).
+    A value that already has a decimal point is read as dollars."""
+    text = clean(value).replace("$", "").replace(",", "")
+    if not text:
+        return None
+    if "." in text:
+        return money(text)
+    return round(int(text) / 100, 2) if text.isdigit() else None
+
+
 def load_csv(path):
     with open(path, newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
@@ -208,8 +219,9 @@ def load_csv(path):
             r = {k.strip().lower(): v for k, v in r.items() if k}
             set_name, number = clean(r.get("set")), clean(r.get("number"))
             set_card = f"{set_name} #{number}" if set_name and number else set_name
-            sold_for = money(r.get("sold_for_price"))
-            status = norm_status(r.get("status")) or ("Sold" if sold_for is not None else "Available")
+            sold_for = collx_sold_price(r.get("sold_for_price"))
+            sold_out = sold_for is not None or clean(r.get("quantity")) == "0"
+            status = norm_status(r.get("status")) or ("Sold" if sold_out else "Available")
             records.append({
                 "sourceRow": i,
                 "id": clean(r.get("collx_id")),
@@ -286,7 +298,9 @@ def find_exact_duplicates(records):
 
 def exclusion_reason(rec):
     if is_unidentified(rec):
-        return "Unidentified card (player or set missing / marked Unidentified)"
+        if rec["player"] and "unidentified" not in rec["player"].lower():
+            return "Set not identified (set is blank or marked Unidentified)"
+        return "Unidentified card (player missing or marked Unidentified)"
     if rec["ask"] is None:
         return "No list price"
     if rec["status"] != "Available":

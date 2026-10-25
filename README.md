@@ -46,7 +46,7 @@ The build needs only Python 3, with nothing to install. It never has a fixed car
 
 **Workbook columns (Inventory tab):** `#`, `Copy`, `Player`, `Year / Set / Card`, `Raw market (CollX est.)`, `List price (ask)`, `Your cost`, `PSA 9 value`, `PSA 10 value`, `Flags`, `Status`. The header row can be anywhere near the top. Blank rows, and rows with no `#` and no player (such as totals), are skipped.
 
-**CollX CSV export:** uses `name`, `set`, `number`, `market_value`, `asking_price`, `purchase_price`, `sold_for_price` and `flags`. The export has no Status column. A row with a `sold_for_price` counts as Sold and every other row counts as Available. If you add a `status` column, the build uses it.
+**CollX CSV export:** uses `name`, `set`, `number`, `market_value`, `asking_price`, `purchase_price`, `sold_for_price` and `flags`. The export has no Status column. A row with a `sold_for_price` or a `quantity` of 0 counts as Sold, and every other row counts as Available. CollX writes sold prices in cents (`208` = $2.08), and the build converts them. If you add a `status` column, the build uses it.
 
 ### Copies and duplicates
 
