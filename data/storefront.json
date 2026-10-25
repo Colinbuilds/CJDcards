@@ -1,12 +1,1372 @@
 {
- "generated": "2026-10-24T19:40:04Z",
+ "generated": "2026-10-25T03:47:20Z",
  "cards": [
+  {
+   "player": "Seattle Seahawks",
+   "setCard": "2026 Topps Flagship #277",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185201497265660928-1-z10S.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jordy Nelson",
+   "setCard": "2015 Topps - Fantasy Focus #FF-JN",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185201582997234688-1-bXg.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Russell Wilson",
+   "setCard": "2018 Panini Prestige - Stars of the NFL #ST-RW",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.7,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185201863780721664-1-F8no.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Randall Cobb",
+   "setCard": "2015 Topps Fire #82",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185201988678706176-1-uYyd.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Peyton Manning",
+   "setCard": "2013 Panini Prizm - Monday Night Heroes #8",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.7,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185202225271006208-1-S2TX.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "BenJarvus Green-Ellis",
+   "setCard": "2014 Panini Hot Rookies - Showcase #48",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185202365352371200-1-gYJV.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Marshawn Lynch",
+   "setCard": "2015 Topps Fire #27",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.38,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185203158168101888-1-uaIG.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "DeMarco Murray",
+   "setCard": "2015 Score - Ground Gainers Night Camo #4",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.75,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185204055078069248-1-iYXU.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jay Fiedler",
+   "setCard": "2001 Upper Deck Rookie F/X #47",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.39,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185204830663599104-1-9cRl.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Doug Flutie",
+   "setCard": "2015 Score - Gridiron Heritage Black #8",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185205250748310528-1-Lgt.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tom Brady",
+   "setCard": "2015 Score - Franchise Black #1",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.59,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185205344373564416-1-3Q8T.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary #91TF-23",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185194634226689024-1-0NZG.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "James Cook",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary #91TF-12",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185194660885685248-1-hsFA.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Drake London",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary #91TF-5",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185194702291854336-1-l9g.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Dawg Pound",
+   "setCard": "2026 Topps Flagship #295",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185194820965491712-1-jet.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Seattle Slays",
+   "setCard": "2026 Topps Flagship #294",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185194871431357440-1-Z8FZ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Joe Burrow",
+   "setCard": "2026 Topps Flagship - Big Ticket Players #BTP-8",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185194900413998080-1-EpG5.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Treylon Burks",
+   "setCard": "2026 Topps Flagship - 2025 Greatest Hits #25GH-TB",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195117427287040-1-Pycb.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jonathan Taylor",
+   "setCard": "2026 Topps Flagship - Topps Profiles #TP-8",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195179687535616-1-V2YO.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "A.J. Terrell",
+   "setCard": "2026 Topps Flagship #9",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195270888481792-1-A9jt.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Chuba Hubbard",
+   "setCard": "2026 Topps Flagship #28",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195340379710464-1-dml1.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Montez Sweat",
+   "setCard": "2026 Topps Flagship #212",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195416774763520-1-DkTR.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jonathan Taylor",
+   "setCard": "2026 Topps Flagship - 2025 All Topps Team #25ATT-10",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195564565259264-1-9mFM.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Drake Maye",
+   "setCard": "2026 Topps Flagship - 2025 All Topps Team #25ATT-3",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195649793516544-1-G7Jk.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Caleb Downs",
+   "setCard": "2026 Topps Flagship #363",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195701207294976-1-BAOV.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "J.J. McCarthy",
+   "setCard": "2026 Topps Flagship #134",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185195791317722112-1-XG6n.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Ashton Jeanty",
+   "setCard": "2026 Topps Flagship #262",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196201965249536-1-3THH.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tyler Warren",
+   "setCard": "2026 Topps Flagship #265",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196257816601600-1-PedL.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Matthew Golden",
+   "setCard": "2026 Topps Flagship #263",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196366843339776-1-FqfT.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Quinshon Judkins",
+   "setCard": "2026 Topps Flagship #267",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196421310571520-1-pAuP.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Seattle Seahawks",
+   "setCard": "2026 Topps Flagship #277",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196506060678144-1-l1IH.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Will Campbell",
+   "setCard": "2026 Topps Flagship #137",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196901164114944-1-nRNk.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Michael Wilson",
+   "setCard": "2026 Topps Flagship #202",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185196979270444032-1-R7EF.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Juwan Johnson",
+   "setCard": "2026 Topps Flagship #146",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197076351804416-1-iYoI.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Quenton Nelson",
+   "setCard": "2026 Topps Flagship #84",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197161420678144-1-4onI.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Quentin Johnston",
+   "setCard": "2026 Topps Flagship #111",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197225476088832-1-DLk.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Kamari Lassiter",
+   "setCard": "2026 Topps Flagship #225",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197266336998400-1-5GbE.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Bryce Young",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary Crackle #91TF-14",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197300629627904-1-NOSz.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jaxson Dart",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary #91TF-33",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197329821983744-1-98Da.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Caleb Williams",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary Crackle #91TF-18",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197370070524928-1-IvIC.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Elijah Sarratt",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary Rookies #91TR-29",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197400152073216-1-I9zx.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Makai Lemon",
+   "setCard": "2026 Topps Flagship #319",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197471555904512-1-DmvR.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Double-J's",
+   "setCard": "2026 Topps Flagship #297",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197549653844992-1-EB6e.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Carson Beck",
+   "setCard": "2026 Topps Flagship #305",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197602971837440-1-0nr6.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tua Tagovailoa",
+   "setCard": "2026 Topps Flagship #126",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197684592993280-1-Ruxg.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jordan Love",
+   "setCard": "2026 Topps Flagship - Pressure Cookers #PC-15",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197741216097280-1-8gRU.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Javonte Williams",
+   "setCard": "2026 Topps Flagship #51",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197770542670848-1-72Uy.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Laiatu Latu",
+   "setCard": "2026 Topps Flagship #228",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197804910797824-1-KMj4.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Aaron Rodgers",
+   "setCard": "2026 Topps Flagship #173",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197834640024576-1-fgqw.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jaxson Dart",
+   "setCard": "2025 Panini Absolute - By Storm #7",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197882136323072-1-CzCi.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Cam Skattebo",
+   "setCard": "2025 Panini Absolute Countdown Calendar #110",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185197956845265920-1-P9OK.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Zach Randolph",
+   "setCard": "2023-24 Topps Chrome Sapphire Edition #118",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.48,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184340750361600-1-IVES.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Donnie Freeman",
+   "setCard": "2025-26 Panini Prizm #79",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184544266380288-1-MMMs.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Neoklis Avdalas",
+   "setCard": "2025-26 Panini Prizm #75",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.69,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184655155389440-1-U5RO.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Dirk Nowitzki",
+   "setCard": "2025-26 Panini Prizm #142",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.96,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184764240847872-1-uMox.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Larry Bird",
+   "setCard": "2025-26 Panini Prizm #141",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184795161256960-1-ax4V.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Rasheer Fleming",
+   "setCard": "2025-26 Panini Prizm #22",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.1,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184822348735488-1-7da.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Winters Grady",
+   "setCard": "2025-26 Panini Prizm - Pink Seismic Prizm #112",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185184862806991872-1-xqhG.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185184862806991872-2-gNow.jpg"
+  },
+  {
+   "player": "Magic Johnson",
+   "setCard": "2025-26 Panini Prizm - Deep Space #11",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185074032141312-1-fSrJ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Karim Lopez",
+   "setCard": "2025-26 Panini Prizm - Fearless #23",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185125009712128-1-97ya.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Dalton Schultz",
+   "setCard": "2025 Topps Chrome #118",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185175718847488-1-43fB.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "KC's Finest",
+   "setCard": "2026 Topps Flagship #291",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185350889759744-1-LkyL.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tyler Shough",
+   "setCard": "2026 Topps Flagship #145",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185377573921792-1-N6SI.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "James Cook",
+   "setCard": "2026 Topps Flagship - Big Ticket Players #BTP-3",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185423124063232-1-koR2.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Kyle Monangai",
+   "setCard": "2026 Topps Flagship #33",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185495685522432-1-DTQ9.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Bobby Wagner",
+   "setCard": "2026 Topps Flagship #260",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185185541856420864-1-Wi35.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Cam Newton",
+   "setCard": "2011 Topps - Bowman Walmart Gray #WC-3",
+   "copy": 1,
+   "copies": 1,
+   "ask": 4.79,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189615079252992-1-Ueb8.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Odell Beckham Jr.",
+   "setCard": "2014 Score #411",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189671710745600-1-kB5F.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Lawrence Taylor",
+   "setCard": "2026 Topps Flagship - Greats of the Game #GOTG-16",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189699233768448-1-Zmm0.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Odell Beckham Jr.",
+   "setCard": "2014 Topps #355",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.15,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189849566012416-1-TXoF.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Nate Orchard",
+   "setCard": "2015 Panini Contenders Draft Picks #227",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189966452876288-1-3oPA.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "D.J. Williams",
+   "setCard": "2014 Panini Hot Rookies - Inscriptions #I-DW",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185190008488190976-1-JC6y.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Peyton Manning",
+   "setCard": "1998 Pinnacle Mint #99",
+   "copy": 1,
+   "copies": 1,
+   "ask": 6.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185190145113449472-1-OeF0.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Shaquille O'Neal",
+   "setCard": "2025-26 Panini Prizm - Red Ice Prizm #156",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187067752604672-1-Q7NK.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185187067752604672-2-bWY0.jpg"
+  },
+  {
+   "player": "Derek Stingley Jr.",
+   "setCard": "2026 Topps Flagship #81",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187239912006656-1-nycQ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "C.J. Williams",
+   "setCard": "2026 Topps Flagship #394",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187285436982272-1-9rzW.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jaycee Horn",
+   "setCard": "2026 Topps Flagship #211",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187315468198912-1-xcX.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Luke McCaffrey",
+   "setCard": "2026 Topps Flagship #198",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187352487126016-1-Hy7Q.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Makai Lemon",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary Rookies #91TR-19",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187463267083264-1-tloN.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Riley Leonard",
+   "setCard": "2025 Panini Absolute - By Storm #14",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187513942664192-1-ggrJ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Abdul Carter",
+   "setCard": "2025 Panini Absolute #101",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187759175230464-1-XiRo.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Patrick Surtain II",
+   "setCard": "2025 Topps Chrome #93",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185187981783720960-1-eSz9.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tyreek Hill",
+   "setCard": "2025 Topps Chrome #185",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.47,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188028927697920-1-OjeY.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "DK Metcalf",
+   "setCard": "2025 Topps Chrome #254",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188125472187392-1-0j2F.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jacory Croskey-Merritt",
+   "setCard": "2025 Topps Chrome #387",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.11,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188158204535808-1-EyIH.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Theo Johnson",
+   "setCard": "2025 Topps Chrome #233",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188513780851712-1-6mPm.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Devon Witherspoon",
+   "setCard": "2025 Topps Chrome #277",
+   "copy": 1,
+   "copies": 1,
+   "ask": 6.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188542218232832-1-TTOa.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Joe Milton III",
+   "setCard": "2025 Topps Chrome #85",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188579228771328-1-cOXH.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Kamren Kinchens",
+   "setCard": "2025 Topps Chrome #174",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188619519255552-1-AsrK.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Leonard Floyd",
+   "setCard": "2025 Topps Chrome #18",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188722615247872-1-qrGf.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Trent McDuffie",
+   "setCard": "2025 Topps Chrome #154",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188782795121664-1-nLqP.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Rashid Shaheed",
+   "setCard": "2025 Topps Chrome #218",
+   "copy": 1,
+   "copies": 1,
+   "ask": 4.55,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188808783029248-1-DYSe.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Blake Corum",
+   "setCard": "2025 Topps Chrome #171",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188846229775360-1-QxLe.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Ja'Tavion Sanders",
+   "setCard": "2025 Topps Chrome #45",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185188878030988288-1-17tW.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Denzel Ward",
+   "setCard": "2025 Topps Chrome #74",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189170130707456-1-LzzK.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Ezekiel Elliott",
+   "setCard": "2016 Score - NFL Draft Green #4",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189434665460736-1-uMam.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Franco Harris",
+   "setCard": "1990 Pro Set - Super Bowl MVP Collectibles #9",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185189526596215808-1-1qxd.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Kamari Lassiter",
+   "setCard": "2026 Topps Flagship #225",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177486888526848-1-hBLj.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "CeeDee Lamb",
+   "setCard": "2026 Topps Flagship - NFL Stars #NFLS-8",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177546044990464-1-kLMz.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Danny Wolf",
+   "setCard": "2025-26 Bowman #27",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177583802115072-1-nFBe.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Earl Campbell",
+   "setCard": "2026 Topps Flagship - Greats of the Game #GOTG-27",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177771505607680-1-zDyi.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Bryce Young",
+   "setCard": "2026 Topps Flagship - NFL Stars #NFLS-12",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177791705375744-1-X4GC.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Cole Payton",
+   "setCard": "2026 Topps Flagship - 1991 Topps Football 35th Anniversary Rookies #91TR-7",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177844561994752-1-lBlS.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "New York Giants",
+   "setCard": "2026 Topps Flagship #275",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177889885643776-1-YKqd.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Caleb Williams",
+   "setCard": "2026 Topps Flagship - Big Ticket Players #BTP-7",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177931711243264-1-Oakd.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jaxson Dart",
+   "setCard": "2026 Topps Flagship - Topps Profiles #TP-24",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185177982420378624-1-H0D5.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Ted Hurst",
+   "setCard": "2026 Topps Flagship #335",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178026485736448-1-O0GY.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Matthew Stafford",
+   "setCard": "2026 Topps Flagship #115",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178076884493312-1-vM06.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jaxon Smith-Njigba",
+   "setCard": "2026 Topps Flagship - NFL Stars #NFLS-37",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178120731747328-1-gSPq.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Brandon Aubrey",
+   "setCard": "2026 Topps Flagship - 2025 All Topps Team #25ATT-7",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178164511892480-1-N4QC.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Michael Penix Jr.",
+   "setCard": "2026 Topps Flagship - Pressure Cookers #PC-29",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178215204250624-1-SmIj.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Josh Allen",
+   "setCard": "2026 Topps Flagship - Pressure Cookers Pink Crackle #PC-7",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178267784045568-1-uT9R.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Trey McBride",
+   "setCard": "2026 Topps Flagship - 2025 All Topps Team #25ATT-14",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178314844136448-1-ozJ5.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Joe Burrow",
+   "setCard": "2026 Topps Flagship - Pressure Cookers #PC-8",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178358657836032-1-dLm.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Cooper Kupp",
+   "setCard": "2026 Topps Flagship - Black Holo Foil #248",
+   "copy": 1,
+   "copies": 1,
+   "ask": 142.78,
+   "top": true,
+   "image": "https://storage.googleapis.com/collx-product-images/1185178737520927744-1-0CgI.jpg",
+   "imageBack": "https://storage.googleapis.com/collx-product-images/1185178737520927744-2-jKxf.jpg"
+  },
+  {
+   "player": "Carson Schwesinger",
+   "setCard": "2025 Topps Signature Class - Class Icons #CI-18",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.1,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185181893432697856-1-0SRl.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tai Felton",
+   "setCard": "2025 Topps Signature Class #134",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185181951012103168-1-R61R.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Andrew Mukuba",
+   "setCard": "2025 Topps Signature Class #162",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182120260658176-1-5Z9i.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jayden Daniels",
+   "setCard": "2025 Topps Chrome - Power Players #PP-3",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182297109292032-1-1CP7.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Kaden Prather",
+   "setCard": "2025 Topps Chrome #394",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182321679524864-1-hGMs.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Derrick Henry",
+   "setCard": "2025 Topps Chrome - Fortune 15 #F15-10",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182372799702016-1-YzZQ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Shemar Stewart",
+   "setCard": "2025 Topps Signature Class #133",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182424314143744-1-88fQ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Kalel Mullings",
+   "setCard": "2025 Topps Signature Class #172",
+   "copy": 1,
+   "copies": 1,
+   "ask": 3.9,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182467272205312-1-XkGZ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Princely Umanmielen",
+   "setCard": "2025 Topps Signature Class #175",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182520070104064-1-gCUM.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Malaki Starks",
+   "setCard": "2025 Topps Signature Class #140",
+   "copy": 1,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182566031287296-1-2KXv.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Riley Leonard",
+   "setCard": "2025 Topps Signature Class #116",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.33,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182649422439424-1-kx0C.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Malaki Starks",
+   "setCard": "2025 Topps Signature Class #140",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182693269693440-1-Jh3b.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Shemar Turner",
+   "setCard": "2025 Topps Signature Class #240",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182741294474240-1-nuP7.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Andrew Mukuba",
+   "setCard": "2025 Topps Signature Class #162",
+   "copy": 2,
+   "copies": 2,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182786827838464-1-uCPI.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Cobee Bryant",
+   "setCard": "2025 Topps Signature Class #234",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182837620859904-1-nJ6R.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Cam Ward",
+   "setCard": "2025 Panini Absolute - Hog Heaven #HH-CWD",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185182874891445248-1-y8DB.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Nikolas Khamenia",
+   "setCard": "2025-26 Panini Prizm - New Recruits Prizms Silver #17",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185183144836850688-1-3ftj.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Saliou Niang",
+   "setCard": "2025-26 Panini Prizm #46",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185183329780491264-1-44t5.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Andrei Kirilenko",
+   "setCard": "2025-26 Panini Prizm #198",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.4,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185183496009147392-1-DZWQ.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Jim Calhoun",
+   "setCard": "2025-26 Panini Prizm #64",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185183524069041152-1-0ZzI.jpg",
+   "imageBack": ""
+  },
+  {
+   "player": "Tre Johnson III",
+   "setCard": "2025-26 Panini Prizm #6",
+   "copy": 1,
+   "copies": 1,
+   "ask": 2.0,
+   "top": false,
+   "image": "https://storage.googleapis.com/collx-product-images/1185183557438923776-1-pJiL.jpg",
+   "imageBack": ""
+  },
   {
    "player": "Pikachu",
    "setCard": "McDonald's Promos 2023 #006/015",
    "copy": 1,
    "copies": 1,
-   "ask": 10.0,
+   "ask": 5.99,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185011743462545408-1-CnRZ.jpg",
    "imageBack": "https://storage.googleapis.com/collx-product-images/1185011743462545408-2-K2hd.jpg"
@@ -86,7 +1446,7 @@
    "setCard": "2024 Panini Absolute #106",
    "copy": 1,
    "copies": 1,
-   "ask": 1.25,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185000804877096960-1-58Y.jpg",
    "imageBack": "https://storage.googleapis.com/collx-product-images/1185000804877096960-2-HEhK.jpg"
@@ -106,7 +1466,7 @@
    "setCard": "2024 Panini Absolute #178",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185001563995789312-1-WgnY.jpg",
    "imageBack": ""
@@ -116,7 +1476,7 @@
    "setCard": "2024 Panini Absolute #170",
    "copy": 1,
    "copies": 1,
-   "ask": 1.43,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185001640843827200-1-Cgi5.jpg",
    "imageBack": ""
@@ -136,7 +1496,7 @@
    "setCard": "2024 Panini Absolute #142",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185001812197922816-1-Yd4.jpg",
    "imageBack": ""
@@ -146,7 +1506,7 @@
    "setCard": "2024 Panini Absolute #199",
    "copy": 1,
    "copies": 1,
-   "ask": 1.44,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185001966967740416-1-67Wu.jpg",
    "imageBack": ""
@@ -156,7 +1516,7 @@
    "setCard": "2024 Panini Absolute #157",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002114934396928-1-PM5P.jpg",
    "imageBack": ""
@@ -166,7 +1526,7 @@
    "setCard": "2024 Panini Absolute #115",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002186740881408-1-iq8q.jpg",
    "imageBack": ""
@@ -176,7 +1536,7 @@
    "setCard": "2024 Panini Absolute #143",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002228339988480-1-N2Yd.jpg",
    "imageBack": ""
@@ -186,7 +1546,7 @@
    "setCard": "2024 Panini Absolute #165",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002424784410624-1-jT9w.jpg",
    "imageBack": ""
@@ -196,7 +1556,7 @@
    "setCard": "2024 Panini Absolute #123",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002488579774464-1-P135.jpg",
    "imageBack": ""
@@ -216,7 +1576,7 @@
    "setCard": "2024 Panini Absolute #137",
    "copy": 1,
    "copies": 1,
-   "ask": 1.5,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002684680263680-1-Of6h.jpg",
    "imageBack": ""
@@ -226,7 +1586,7 @@
    "setCard": "2024 Panini Absolute #194",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002744977577984-1-4ZUz.jpg",
    "imageBack": ""
@@ -246,7 +1606,7 @@
    "setCard": "2024 Panini Absolute #181",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002833569667072-1-cRNy.jpg",
    "imageBack": ""
@@ -256,7 +1616,7 @@
    "setCard": "2024 Panini Absolute #153",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185002988641474560-1-4KMc.jpg",
    "imageBack": ""
@@ -276,7 +1636,7 @@
    "setCard": "2024 Panini Absolute #111",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185003059843979264-1-5Uvk.jpg",
    "imageBack": ""
@@ -286,7 +1646,7 @@
    "setCard": "2024 Panini Absolute #134",
    "copy": 1,
    "copies": 1,
-   "ask": 1.5,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185003108321744896-1-46FD.jpg",
    "imageBack": ""
@@ -296,7 +1656,7 @@
    "setCard": "2024 Panini Absolute #191",
    "copy": 1,
    "copies": 1,
-   "ask": 1.43,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185003247161595904-1-J60O.jpg",
    "imageBack": ""
@@ -306,7 +1666,7 @@
    "setCard": "2024 Panini Absolute #149",
    "copy": 1,
    "copies": 1,
-   "ask": 1.3,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1185003509171378176-1-fJr.jpg",
    "imageBack": ""
@@ -336,7 +1696,7 @@
    "setCard": "2024 Panini Absolute #120",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184994314074216448-1-3kjV.jpg",
    "imageBack": ""
@@ -356,7 +1716,7 @@
    "setCard": "2024 Panini Absolute #183",
    "copy": 1,
    "copies": 1,
-   "ask": 1.55,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184994834537011200-1-rnvp.jpg",
    "imageBack": ""
@@ -376,7 +1736,7 @@
    "setCard": "2024 Panini Absolute #101",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184995660907173888-1-E7UH.jpg",
    "imageBack": "https://storage.googleapis.com/collx-product-images/1184995660907173888-2-erat.jpg"
@@ -386,7 +1746,7 @@
    "setCard": "2024 Panini Absolute #155",
    "copy": 1,
    "copies": 1,
-   "ask": 1.5,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184995890931193856-1-N4kQ.jpg",
    "imageBack": ""
@@ -396,7 +1756,7 @@
    "setCard": "2024 Panini Absolute #176",
    "copy": 1,
    "copies": 1,
-   "ask": 1.92,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184996388484700160-1-D87C.jpg",
    "imageBack": ""
@@ -406,7 +1766,7 @@
    "setCard": "2024 Panini Absolute #133",
    "copy": 1,
    "copies": 1,
-   "ask": 1.36,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184996475264849920-1-7GlW.jpg",
    "imageBack": ""
@@ -416,7 +1776,7 @@
    "setCard": "2024 Panini Absolute #190",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184996571213748224-1-0RP.jpg",
    "imageBack": ""
@@ -426,7 +1786,7 @@
    "setCard": "2024 Panini Absolute #173",
    "copy": 1,
    "copies": 1,
-   "ask": 1.08,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184996787069409280-1-ikFr.jpg",
    "imageBack": ""
@@ -436,7 +1796,7 @@
    "setCard": "2024 Panini Absolute #164",
    "copy": 1,
    "copies": 1,
-   "ask": 1.44,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184996855260403712-1-eWsk.jpg",
    "imageBack": ""
@@ -446,7 +1806,7 @@
    "setCard": "2024 Panini Absolute #116",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184996950269777920-1-sU6N.jpg",
    "imageBack": ""
@@ -466,7 +1826,7 @@
    "setCard": "2024 Panini Absolute #122",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184997388331276288-1-Joie.jpg",
    "imageBack": ""
@@ -476,7 +1836,7 @@
    "setCard": "2024 Panini Absolute #136",
    "copy": 1,
    "copies": 1,
-   "ask": 1.79,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184997474591332352-1-xMNN.jpg",
    "imageBack": ""
@@ -486,7 +1846,7 @@
    "setCard": "2024 Panini Absolute #177",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184997533001209856-1-iJbG.jpg",
    "imageBack": ""
@@ -496,7 +1856,7 @@
    "setCard": "2024 Panini Absolute #104",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184998439784568832-1-hu4.jpg",
    "imageBack": "https://storage.googleapis.com/collx-product-images/1184998439784568832-2-OGED.jpg"
@@ -506,7 +1866,7 @@
    "setCard": "2024 Panini Absolute #118",
    "copy": 1,
    "copies": 1,
-   "ask": 1.19,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184998898423322624-1-YSqC.jpg",
    "imageBack": "https://storage.googleapis.com/collx-product-images/1184998898423322624-2-h2sG.jpg"
@@ -526,7 +1886,7 @@
    "setCard": "2024 Panini Absolute #132",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184999114782300160-1-6shZ.jpg",
    "imageBack": ""
@@ -536,7 +1896,7 @@
    "setCard": "2024 Panini Absolute #189",
    "copy": 1,
    "copies": 1,
-   "ask": 1.49,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184999225788749824-1-O3pT.jpg",
    "imageBack": ""
@@ -546,7 +1906,7 @@
    "setCard": "2024 Panini Absolute #187",
    "copy": 1,
    "copies": 1,
-   "ask": 1.2,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184999437458495488-1-236S.jpg",
    "imageBack": ""
@@ -566,7 +1926,7 @@
    "setCard": "2024 Panini Absolute #113",
    "copy": 1,
    "copies": 1,
-   "ask": 1.5,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184999742350841857-1-Lkx.jpg",
    "imageBack": ""
@@ -586,7 +1946,7 @@
    "setCard": "2025-26 Panini Prizm #51",
    "copy": 1,
    "copies": 1,
-   "ask": 2.5,
+   "ask": 3.6,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184572708021872640-1-P3MX.jpg",
    "imageBack": "https://storage.googleapis.com/collx-product-images/1184572708021872640-2-LhpN.jpg"
@@ -766,7 +2126,7 @@
    "setCard": "2024 Panini Prizm - Rookie Gear #RG-DME",
    "copy": 1,
    "copies": 1,
-   "ask": 15.0,
+   "ask": 12.6,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184511501944741888-1-vWj.jpg",
    "imageBack": ""
@@ -1036,7 +2396,7 @@
    "setCard": "2024 Panini Absolute - Introductions #I-BNX",
    "copy": 1,
    "copies": 1,
-   "ask": 3.0,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184504125229359104-1-dhm5.jpg",
    "imageBack": ""
@@ -1126,7 +2486,7 @@
    "setCard": "2024 Panini Absolute - Draft Diamonds #DD-JWN",
    "copy": 1,
    "copies": 1,
-   "ask": 2.15,
+   "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184505564337004544-1-gybs.jpg",
    "imageBack": ""
@@ -1139,16 +2499,6 @@
    "ask": 2.0,
    "top": false,
    "image": "https://storage.googleapis.com/collx-product-images/1184505795636092928-1-uwtE.jpg",
-   "imageBack": ""
-  },
-  {
-   "player": "C.J. Stroud",
-   "setCard": "2024 Panini Absolute - Draft Diamonds #DD-CSD",
-   "copy": 1,
-   "copies": 1,
-   "ask": 2.0,
-   "top": false,
-   "image": "https://storage.googleapis.com/collx-product-images/1184505871703990272-1-kGq3.jpg",
    "imageBack": ""
   },
   {
