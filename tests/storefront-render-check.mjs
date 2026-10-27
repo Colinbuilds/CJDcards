@@ -1,4 +1,4 @@
-// Renders storefront.html in a real browser and searches the built HTML for private values.
+// Renders storefront.html and binder.html in a real browser and searches the built HTML for private values.
 // Optional; needs Playwright:  npm i -D playwright && npx playwright install chromium
 // Run from the site folder:     node tests/storefront-render-check.mjs
 import { createServer } from "node:http";
@@ -80,10 +80,61 @@ for (const [width, scheme] of [[375, "light"], [375, "dark"], [1280, "light"]]) 
   if (!found.length || found.some((p) => !p.toLowerCase().includes(name.toLowerCase()))) problems.push(`search for "${name}" returned ${found}`);
   await page.close();
 }
+// The binder page: every price tag and pulled-out card must show that card's own ask.
+const askOf = new Map(storefront.map((c) => [`${c.player}|${c.setCard}|${c.copy}`, fmt(c.ask)]));
+for (const [width, scheme] of [[375, "light"], [1280, "dark"]]) {
+  const page = await browser.newPage({ viewport: { width, height: 900 }, colorScheme: scheme });
+  await page.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
+  page.on("pageerror", (e) => problems.push(`binder ${width}px: page error ${e.message}`));
+  await page.goto(`${base}/binder.html`);
+  await page.waitForSelector(".pocket[data-index]");
+  const perView = await page.$$eval(".page-slot .pocket[data-index]", (els) => els.length);
+  const expected = Math.min(storefront.length, width >= 896 ? 18 : 9);
+  if (perView !== expected) problems.push(`binder ${width}px: ${perView} cards in view, expected ${expected}`);
+  const tags = await page.$$eval(".page-slot .pocket[data-index] .pocket-tag", (els) => els.map((e) => e.textContent));
+  if (tags.some((t) => !publicAsks.has(t))) problems.push(`binder ${width}px: a price tag is not an asking price`);
+  // Pull out the first card and compare its details with the data.
+  await page.click(".page-slot .pocket[data-index]");
+  await page.waitForFunction(() => document.getElementById("pull").open);
+  await page.waitForTimeout(900);
+  const pulled = await page.evaluate(() => ({
+    player: document.getElementById("pull-title").textContent,
+    setCard: document.getElementById("pull-set").textContent,
+    copy: document.getElementById("pull-copy").textContent,
+    price: document.getElementById("pull-price").firstChild.textContent,
+  }));
+  const match = storefront.find((c) => c.player === pulled.player && c.setCard === pulled.setCard &&
+    (c.copies > 1 ? pulled.copy === `Copy ${c.copy} of ${c.copies}` : true));
+  if (!match || askOf.get(`${match.player}|${match.setCard}|${match.copy}`) !== pulled.price) {
+    problems.push(`binder ${width}px: pulled card "${pulled.player}" shows ${pulled.price}, not its ask`);
+  }
+  await page.keyboard.press("Escape");
+  await page.waitForFunction(() => !document.getElementById("pull").open, null, { timeout: 3000 }).catch(() =>
+    problems.push(`binder ${width}px: Esc did not put the card back`));
+  // Turn a page if there is more than one.
+  if (!(await page.isDisabled("#next-page"))) {
+    const before = await page.textContent("#page-status");
+    await page.click("#next-page");
+    await page.waitForTimeout(900);
+    if ((await page.textContent("#page-status")) === before) problems.push(`binder ${width}px: Next did not turn the page`);
+  }
+  const html = await page.content();
+  const text = (await page.locator("body").innerText()).toLowerCase();
+  for (const [value, fields] of privateValues) {
+    if (html.includes(value) && !publicAsks.has(value)) problems.push(`binder HTML contains ${value} (${[...fields]})`);
+  }
+  for (const word of ["market", "cost", "psa", "profit"]) {
+    if (text.includes(word)) problems.push(`binder visible text mentions "${word}"`);
+  }
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  if (overflow > 0) problems.push(`binder ${width}px: page scrolls sideways by ${overflow}px`);
+  await page.close();
+}
+
 await browser.close();
 server.close();
 
-console.log(`Rendered storefront with ${storefront.length} cards; searched its HTML for ${privateValues.size} private amounts.`);
+console.log(`Rendered storefront and binder with ${storefront.length} cards; searched their HTML for ${privateValues.size} private amounts.`);
 if (problems.length) {
   console.log("FAIL");
   for (const p of [...new Set(problems)]) console.log("  -", p);

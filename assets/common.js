@@ -2,6 +2,12 @@
 (function () {
   "use strict";
 
+  // Your shop links. Every "Shop on…" button on the site uses these.
+  const links = {
+    collx: "https://example.com/replace-with-your-collx-shop",
+    whatnot: "https://www.whatnot.com/s/wH0TTm8T",
+  };
+
   const moneyFormat = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
 
   function money(n) {
@@ -49,5 +55,5 @@
     anchor.before(el("p", { class: "load-error", role: "alert", text: message }));
   }
 
-  window.Shop = { money, copyLabel, loadJSON, el, showError };
+  window.Shop = { money, copyLabel, loadJSON, el, showError, links };
 })();

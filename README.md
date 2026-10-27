@@ -5,13 +5,14 @@ A small static site in plain HTML, CSS and JavaScript. There's no build step for
 | Page | What it is |
 |---|---|
 | `storefront.html` | Public. Searchable grid of cards for sale with asking prices. |
+| `binder.html` | Public. The same cards in a flippable 9-pocket binder; tap a card to pull it out. |
 | `tracker.html` | Private. Record sales, see profit, set a status for each copy. |
 | `labels.html` | Private. Design and print card labels or address labels. |
 | `index.html` | Redirects to the storefront. |
 
 ```
-index.html  storefront.html  tracker.html  labels.html
-assets/        styles.css, common.js, storefront.js, tracker.js, labels.css, labels.js
+index.html  storefront.html  binder.html  tracker.html  labels.html
+assets/        styles.css, common.js, storefront.js, binder.css, binder.js, tracker.js, labels.css, labels.js
 data/          inventory.json (every copy, all fields), storefront.json (public fields only)
 reports/       excluded.md (rows left off the storefront, and why)
 source/        your workbook (.xlsx) or CollX export (.csv)
@@ -69,6 +70,13 @@ The storefront shows a photo for each card, and tapping a card opens a larger vi
 - **Workbook:** add a `Photo` column (and optionally `Back photo`) containing web links to the images.
 - The photos load from wherever the links point (CollX's image storage for an export). If a link stops working, that card shows a ✦ placeholder instead.
 
+## The binder
+
+`binder.html` shows the storefront cards in a 9-pocket binder: two pages side by side on a computer, one page on a phone. Each sleeve has a price sticker, and Top cards get a gold ✦.
+- Turn pages with **Previous / Next**, the **arrow keys**, or by **swiping** on a phone. Search and "Arrange by" work like the storefront.
+- Tap a card and it slides out of its sleeve with the player, set, copy number and asking price. Tap the card again to flip it over. Cards with no back photo show a CJDcards card back. **Put it back**, Esc, or tapping outside slides it back into its sleeve.
+- It reads the same `data/storefront.json`, so it updates whenever you rebuild. `build/check_public.py` and `tests/storefront-render-check.mjs` check the binder for private values too.
+
 ## The tracker
 
 - Fees are CollX 8%, Whatnot 10.9% + $0.30 per order, eBay 13.6%, Other 0%. To change them, edit `PLATFORMS` at the top of `assets/tracker.js`.
@@ -94,7 +102,7 @@ Text shrinks automatically to fit each label. If anything ends up smaller than 6
 
 ## Deploy
 
-Before deploying, note that **anyone with the URL can open `tracker.html` and `data/inventory.json`.** That file includes your market values and costs, and the `source/` file is also public if you publish the whole folder. The tracker and label pages ask search engines not to index them, but that isn't access control. If those numbers must stay private, deploy only the storefront files: `index.html`, `storefront.html`, `assets/common.js`, `assets/storefront.js`, `assets/styles.css` and `data/storefront.json`. Then run the tracker locally with `python3 -m http.server`.
+Before deploying, note that **anyone with the URL can open `tracker.html` and `data/inventory.json`.** That file includes your market values and costs, and the `source/` file is also public if you publish the whole folder. The tracker and label pages ask search engines not to index them, but that isn't access control. If those numbers must stay private, deploy only the public files: `index.html`, `storefront.html`, `binder.html`, `assets/common.js`, `assets/storefront.js`, `assets/binder.js`, `assets/binder.css`, `assets/styles.css` and `data/storefront.json`. Then run the tracker locally with `python3 -m http.server`.
 
 **GitHub Pages:** push this folder to a GitHub repo, then go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save. The site appears at `https://<user>.github.io/<repo>/` within a minute or two. A public repo also makes `source/` and `data/inventory.json` public on GitHub itself.
 
@@ -108,7 +116,7 @@ Before deploying, note that **anyone with the URL can open `tracker.html` and `d
 ## Customize
 
 - **Shop name:** "CJDcards" appears in `storefront.html` (in `<title>`, the description, the nav and the `<h1>`), `tracker.html`, `labels.html` and `index.html`. The name printed on labels can also be changed in the label studio itself.
-- **Shop buttons:** replace the two `https://example.com/...` links in `storefront.html` with your CollX and Whatnot shop URLs.
+- **Shop buttons:** set your CollX and Whatnot shop URLs in `links` at the top of `assets/common.js`. Every Shop on CollX / Whatnot button on the storefront and binder uses them.
 - **Tagline:** the `<p class="tagline">` in `storefront.html`.
 - **Colors and fonts:** the variables at the top of `assets/styles.css` (ivory, ink and gold, with Cormorant Garamond and Jost from Google Fonts). Light and dark mode follow the system setting.
 - **Private links:** to hide Tracker and Labels from the public nav, delete their `<li>` items from `storefront.html`.

@@ -89,10 +89,9 @@
     document.getElementById("pd-close").addEventListener("click", () => dialog.close());
     // Click on the dimmed backdrop closes the viewer.
     dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
-    // The viewer's shop buttons use the same links as the header buttons.
-    for (const [from, to] of [["shop-collx", "pd-collx"], ["shop-whatnot", "pd-whatnot"]]) {
-      document.getElementById(to).href = document.getElementById(from).href;
-    }
+    // Shop links come from assets/common.js.
+    for (const id of ["shop-collx", "pd-collx"]) document.getElementById(id).href = window.Shop.links.collx;
+    for (const id of ["shop-whatnot", "pd-whatnot"]) document.getElementById(id).href = window.Shop.links.whatnot;
   }
 
   function render() {

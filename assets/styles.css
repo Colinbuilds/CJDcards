@@ -340,6 +340,7 @@ input[type="radio"] {
   text-align: center;
   padding: 56px 0 8px;
 }
+.collection-head .binder-link { margin-top: 18px; }
 .collection-head h2 {
   margin-top: 12px;
   font-size: clamp(2rem, 7vw, 2.9rem);
