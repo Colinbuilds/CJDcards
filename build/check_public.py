@@ -6,8 +6,8 @@ Run after the build:  python3 build/check_public.py
 Fails (exit 1) if:
   * data/storefront.json has any field besides the public ones
   * a storefront card's price isn't that card's own asking price
-  * any raw market, cost, PSA 9, PSA 10 or sold value appears in the storefront
-    files (storefront.html, assets/common.js, assets/storefront.js, data/storefront.json)
+  * any raw market, cost, PSA 9, PSA 10 or sold value appears as a dollar amount in
+    the storefront files (storefront.html, binder.html and their scripts)
   * the storefront files mention market / cost / PSA / profit / inventory.json
 
 For the rendered page, also run tests/storefront-render-check.mjs (needs Playwright).
@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_FIELDS = {"player", "setCard", "copy", "copies", "ask", "top", "image", "imageBack"}
 PRIVATE_FIELDS = ["market", "cost", "psa9", "psa10", "soldFor"]
-STOREFRONT_FILES = ["storefront.html", "assets/common.js", "assets/storefront.js", "data/storefront.json"]
+STOREFRONT_FILES = ["storefront.html", "binder.html", "assets/common.js", "assets/storefront.js", "assets/binder.js", "data/storefront.json"]
 BANNED_WORDS = re.compile(r"market|cost|psa|profit|inventory\.json|soldFor", re.I)
 
 
@@ -66,7 +66,9 @@ def main():
     texts = {name: (ROOT / name).read_text(encoding="utf-8") for name in STOREFRONT_FILES}
     coincidences = set()
     for form, fields in sorted(private.items()):
-        pattern = re.compile(r"(?<![\d.])" + re.escape(form) + r"(?![\d])")
+        # Code files hold ordinary decimals (animation timings etc.), so look for
+        # dollar amounts there: "$0.25", not a bare 0.25.
+        pattern = re.compile(r"\$\s*" + re.escape(form) + r"(?![\d])")
         for name, text in texts.items():
             if name == "data/storefront.json":
                 continue  # its numbers are checked structurally above

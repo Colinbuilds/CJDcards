@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Binder · CJDcards</title>
+  <meta name="description" content="Flip through the CJDcards binder: sports cards for sale, page by page. Free US shipping.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/binder.css">
+</head>
+<body>
+  <a class="skip-link" href="#binder-controls">Skip to the binder</a>
+
+  <nav class="site-nav" aria-label="Site">
+    <div class="wrap">
+      <a class="nav-brand" href="storefront.html">CJDcards</a>
+      <ul>
+        <li><a href="storefront.html">Shop</a></li>
+        <li><a href="binder.html" aria-current="page">Binder</a></li>
+        <li><a href="tracker.html">Tracker</a></li>
+        <li><a href="labels.html">Labels</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="wrap">
+    <div class="collection-head">
+      <p class="eyebrow">The binder</p>
+      <h1 class="binder-title">Flip through the collection</h1>
+      <p class="binder-intro">Tap any card to pull it from its sleeve.</p>
+    </div>
+
+    <div class="toolbar">
+      <div class="field">
+        <label for="binder-search">Search cards</label>
+        <input id="binder-search" type="search" placeholder="Player, set or card number" autocomplete="off" aria-controls="binder">
+      </div>
+      <div class="field">
+        <label for="binder-sort">Arrange by</label>
+        <select id="binder-sort" aria-controls="binder">
+          <option value="price-desc">Price: high to low</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="player">Player A–Z</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="binder-controls" id="binder-controls">
+      <button type="button" class="btn btn-ghost page-btn" id="prev-page" aria-controls="binder">
+        <span aria-hidden="true">←</span> Previous
+      </button>
+      <p id="page-status" class="page-status" role="status" aria-live="polite"></p>
+      <button type="button" class="btn btn-ghost page-btn" id="next-page" aria-controls="binder">
+        Next <span aria-hidden="true">→</span>
+      </button>
+    </div>
+
+    <section class="binder" id="binder" aria-label="Card binder" aria-roledescription="binder">
+      <div class="spread" id="spread">
+        <div class="page-slot left" id="slot-left"></div>
+        <div class="rings" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="page-slot right" id="slot-right"></div>
+      </div>
+    </section>
+    <p class="binder-hint">Swipe or use the arrow keys to turn pages.</p>
+  </main>
+
+  <dialog id="pull" class="pull-dialog" aria-labelledby="pull-title">
+    <div class="pull-stage">
+      <button type="button" class="pull-card" id="pull-card" aria-label="Flip the card over">
+        <span class="pull-inner" id="pull-inner">
+          <span class="face face-front" id="pull-front"></span>
+          <span class="face face-back" id="pull-back"></span>
+        </span>
+      </button>
+      <div class="pull-details" id="pull-details">
+        <p class="eyebrow" id="pull-eyebrow"></p>
+        <h2 id="pull-title"></h2>
+        <p class="pull-set" id="pull-set"></p>
+        <p class="pull-copy" id="pull-copy"></p>
+        <p class="pull-price" id="pull-price"></p>
+        <p class="pull-hint">Tap the card to see the back.</p>
+        <div class="pull-actions">
+          <a class="btn btn-primary" id="pull-collx" href="#" target="_blank" rel="noopener">Shop on CollX</a>
+          <a class="btn btn-ghost" id="pull-whatnot" href="#" target="_blank" rel="noopener">Shop on Whatnot</a>
+        </div>
+        <button type="button" class="btn btn-ghost btn-small pull-back-btn" id="pull-close">Put it back</button>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="ornament" aria-hidden="true">✦</div>
+      <p>Prices are asking prices and can change. Shipping is free in the US. Want tracking? Just pay the difference in postage. Check the shop listing before you buy.</p>
+    </div>
+  </footer>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/binder.js"></script>
+</body>
+</html>

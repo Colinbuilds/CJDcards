@@ -2,6 +2,6 @@
 FROM caddy:2.8.4-alpine
 COPY Caddyfile /etc/caddy/Caddyfile
 # Only the website files. source/, build/, reports/ and tests/ are not served.
-COPY index.html storefront.html tracker.html labels.html /srv/
+COPY index.html storefront.html binder.html tracker.html labels.html /srv/
 COPY assets /srv/assets
 COPY data /srv/data

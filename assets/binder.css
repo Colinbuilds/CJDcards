@@ -1,0 +1,370 @@
+/* The binder: leather cover, 9-pocket pages, page turns and the pull-out card. */
+
+@property --shade { syntax: "<number>"; inherits: false; initial-value: 0; }
+
+.binder-title { margin-top: 12px; font-size: clamp(2rem, 7vw, 2.9rem); font-weight: 500; }
+.binder-intro {
+  margin: 10px 0 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--muted);
+}
+
+.binder-controls {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 14px;
+}
+.page-btn { padding-left: 14px; padding-right: 14px; }
+.page-btn[disabled] { opacity: 0.35; cursor: default; }
+.page-status {
+  margin: 0;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+/* ---------- Cover ---------- */
+
+.binder {
+  --pocket-gap: 2.2%;
+  position: relative;
+  padding: 14px;
+  border-radius: 14px;
+  background:
+    radial-gradient(120% 80% at 20% 0%, rgb(255 235 200 / 0.08), transparent 60%),
+    repeating-linear-gradient(45deg, rgb(255 255 255 / 0.012) 0 2px, transparent 2px 5px),
+    linear-gradient(160deg, #2a2119, #15100b 55%, #0d0a07);
+  box-shadow:
+    inset 0 0 0 1px rgb(217 184 113 / 0.25),
+    inset 0 2px 0 rgb(255 255 255 / 0.06),
+    0 2px 2px rgb(0 0 0 / 0.2),
+    0 30px 60px -25px rgb(20 10 0 / 0.7);
+  margin-bottom: 14px;
+  touch-action: pan-y;
+}
+.binder::before {
+  /* gold stitching */
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border: 1px dashed rgb(217 184 113 / 0.45);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.spread {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  perspective: 2200px;
+}
+.page-slot.left, .rings { display: none; }
+
+.rings {
+  position: relative;
+  width: 26px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 3;
+}
+.rings span {
+  display: block;
+  width: 34px;
+  height: 14px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #f4e3b5, #b38c45 45%, #6e5222 55%, #d9b871);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.6), inset 0 1px 0 rgb(255 255 255 / 0.6);
+}
+
+/* ---------- Page ---------- */
+
+.page {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--pocket-gap);
+  padding: 5% 5% 9%;
+  aspect-ratio: 0.74;
+  border-radius: 6px;
+  background:
+    linear-gradient(90deg, rgb(255 255 255 / 0.04), transparent 8%),
+    linear-gradient(180deg, #1d1914, #14110d);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.06), inset 0 0 40px rgb(0 0 0 / 0.5);
+  overflow: hidden;
+}
+.page-number {
+  position: absolute;
+  bottom: 2.6%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: clamp(0.55rem, 1.6vw, 0.7rem);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgb(217 184 113 / 0.7);
+}
+
+/* A pocket is a clear sleeve; the card sits inside it */
+.pocket {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 44px;
+  aspect-ratio: 5 / 7;
+  padding: 5%;
+  border: 0;
+  border-radius: 4px;
+  background: rgb(255 255 255 / 0.035);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.12), inset 0 -10px 18px rgb(0 0 0 / 0.25);
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+.pocket::after {
+  /* sleeve shine */
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(115deg, rgb(255 255 255 / 0.16) 0%, rgb(255 255 255 / 0) 30%, rgb(255 255 255 / 0) 62%, rgb(255 255 255 / 0.07) 75%, rgb(255 255 255 / 0) 85%);
+  pointer-events: none;
+}
+.pocket.empty { cursor: default; box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.07); background: rgb(255 255 255 / 0.015); }
+.pocket img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.5);
+}
+.pocket.is-out img, .pocket.is-out .pocket-tag { visibility: hidden; }
+.pocket .no-photo { font-size: 1.6rem; color: var(--hero-gold); }
+.pocket-tag {
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  z-index: 1;
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: #fbf6ea;
+  color: #17130e;
+  font-size: clamp(0.55rem, 1.9vw, 0.72rem);
+  font-weight: 600;
+  font-variant-numeric: lining-nums tabular-nums;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
+}
+.pocket-star {
+  position: absolute;
+  top: 3%;
+  left: 4%;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: clamp(16px, 4.5vw, 22px);
+  height: clamp(16px, 4.5vw, 22px);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #f6e2a8, #c39a4c 60%, #8a6a2c);
+  color: #2a1e08;
+  font-size: clamp(0.5rem, 1.6vw, 0.65rem);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.6);
+}
+@media (hover: hover) {
+  .pocket:not(.empty):hover img { transform: translateY(-3%); transition: transform 0.2s ease; }
+}
+.pocket:focus-visible { outline: 2px solid var(--hero-gold); outline-offset: 2px; }
+
+.binder-empty {
+  grid-column: 1 / -1;
+  align-self: center;
+  text-align: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--hero-muted);
+}
+
+/* ---------- Page turn ---------- */
+
+.leaf {
+  position: absolute;
+  z-index: 5;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+.leaf-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.leaf-face .page { height: 100%; aspect-ratio: auto; }
+.leaf-back { transform: rotateY(180deg); }
+.leaf-face::after {
+  /* shading as the page bends */
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0.35), transparent 40%);
+  opacity: var(--shade, 0);
+  pointer-events: none;
+}
+.blank-page {
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #1d1914, #14110d);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.06);
+}
+
+.binder-hint { text-align: center; color: var(--muted); font-size: 0.82rem; margin: 0 0 48px; }
+
+@media (min-width: 56rem) {
+  .spread { grid-template-columns: minmax(0, 1fr) 26px minmax(0, 1fr); }
+  .page-slot.left { display: block; }
+  .rings { display: flex; }
+  .binder { padding: 18px; }
+}
+
+/* ---------- Pulled-out card ---------- */
+
+.pull-dialog {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--hero-text);
+  overflow: auto;
+}
+.pull-dialog::backdrop {
+  background: radial-gradient(80% 60% at 50% 40%, rgb(34 26 14 / 0.93), rgb(5 4 3 / 0.97));
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.pull-dialog[open] { display: flex; }
+.pull-stage {
+  margin: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  max-width: 60rem;
+  padding: 28px 16px 36px;
+}
+
+.pull-card {
+  position: relative;
+  width: min(62vw, 280px, 38dvh);
+  aspect-ratio: 5 / 7;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  perspective: 1400px;
+}
+.pull-inner {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.pull-inner.flipped { transform: rotateY(180deg); }
+.face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.face img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 30px 60px -20px rgb(0 0 0 / 0.9), 0 0 0 1px rgb(255 255 255 / 0.08);
+}
+.face-back { transform: rotateY(180deg); }
+.brand-back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 10px;
+  background:
+    repeating-linear-gradient(45deg, rgb(217 184 113 / 0.07) 0 1px, transparent 1px 12px),
+    repeating-linear-gradient(-45deg, rgb(217 184 113 / 0.07) 0 1px, transparent 1px 12px),
+    radial-gradient(circle at 50% 45%, #2a2116, #0e0b08 70%);
+  box-shadow: 0 30px 60px -20px rgb(0 0 0 / 0.9), inset 0 0 0 1px rgb(217 184 113 / 0.5), inset 0 0 0 7px #0e0b08, inset 0 0 0 8px rgb(217 184 113 / 0.35);
+  color: var(--hero-gold);
+}
+.brand-back strong { font-family: var(--font-display); font-size: 2rem; font-weight: 600; letter-spacing: 0.04em; color: var(--hero-text); }
+.brand-back span { font-size: 0.6rem; letter-spacing: 0.32em; text-transform: uppercase; }
+.pull-card:focus-visible { outline: 2px solid var(--hero-gold); outline-offset: 6px; border-radius: 12px; }
+
+.pull-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  max-width: 26rem;
+}
+.pull-details .eyebrow { color: var(--hero-gold); }
+.pull-details h2 { font-size: clamp(2rem, 7vw, 2.8rem); font-weight: 600; overflow-wrap: anywhere; }
+.pull-set { margin: 0; color: var(--hero-muted); }
+.pull-copy {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-gold);
+}
+.pull-price {
+  margin: 10px 0 0;
+  font-family: var(--font-display);
+  font-size: 2.6rem;
+  font-weight: 600;
+  font-variant-numeric: lining-nums;
+}
+.pull-price small {
+  font-family: var(--font-body);
+  font-size: 0.64rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--hero-muted);
+}
+.pull-hint { margin: 0 0 8px; font-size: 0.82rem; color: var(--hero-muted); }
+.pull-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.pull-actions .btn-ghost, .pull-back-btn { color: var(--hero-text); border-color: rgb(217 184 113 / 0.45); }
+.pull-back-btn { margin-top: 10px; }
+
+@media (min-width: 48rem) {
+  .pull-stage { grid-template-columns: auto minmax(0, 1fr); gap: 56px; padding: 40px 32px; }
+  .pull-card { width: min(36vw, 340px, 60dvh); }
+  .pull-details { align-items: flex-start; text-align: left; }
+  .pull-actions { justify-content: flex-start; }
+}
